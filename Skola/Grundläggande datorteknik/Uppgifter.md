@@ -16,7 +16,7 @@
 
 ### Goals
 - [x] **Read:** Course book chapters 1–3 (up to § 3.1.9)  
-- [ ] **Solve:** Exempelsamling tasks 2.1a,b; 2.2a–d; 2.9a–f; 2.10a–f; 2.11a–h; 3.1.1–3.2.10  
+- [x] **Solve:** Exempelsamling tasks 2.1a,b; 2.2a–d; 2.9a–f; 2.10a–f; 2.11a–h; 3.1.1–3.2.10  
 - [x] **Simulate:** Course book tasks 3.1 and 3.2  
 
 ---
@@ -60,13 +60,13 @@
 
 ## Lecture 4
 **Reading**
-- [ ] Chapter 3 – § 3.1.7 – 3.1.9, § 3.2 – 3.2.1
+- [x] Chapter 3 – § 3.1.7 – 3.1.9, § 3.2 – 3.2.1
 
 ---
 
 ## Lecture 5
 **Reading**
-- [ ] Chapter 4 – § 4.1 – 4.4, 4.5 – 4.5.1  
+- [x] Chapter 4 – § 4.1 – 4.4, 4.5 – 4.5.1  
 - [ ] Chapter 5 – § 5.6 – 5.6.4
 
 ---
