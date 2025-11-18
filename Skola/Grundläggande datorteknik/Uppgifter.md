@@ -85,7 +85,7 @@
 
 # Inför Labb 1
 ## Uppgifter i kursboken
-- [ ] (3.5)
+- [-] (3.5)
 - [ ] 3.6
 - [ ] 3.10
 - [ ] 3.11
