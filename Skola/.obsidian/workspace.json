@@ -8,6 +8,18 @@
         "type": "tabs",
         "children": [
           {
+            "id": "beeec0a5f6e60c6e",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Grundläggande datorteknik/Labb PM/1.A.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "1.A.excalidraw"
+            }
+          },
+          {
             "id": "352bd2f47cd524a3",
             "type": "leaf",
             "state": {
@@ -172,16 +184,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "352bd2f47cd524a3",
+  "active": "beeec0a5f6e60c6e",
   "lastOpenFiles": [
+    "Grundläggande datorteknik/Labb PM/Hemuppgift 1.A.md",
+    "Grundläggande datorteknik/Labb PM/1.A.excalidraw.md",
+    "Grundläggande datorteknik/Bokuppgifter/5.9.md",
+    "Grundläggande datorteknik/Bokuppgifter/3.6.md",
     "Grundläggande datorteknik/Labb PM",
     "Grundläggande datorteknik/Uppgifter.md",
-    "Grundläggande datorteknik/Labb PM/Hemuppgift 1.A.md",
     "attachments/Pasted image 20251118162210.png",
     "attachments/Pasted image 20251118174928.png",
     "attachments",
-    "Grundläggande datorteknik/Bokuppgifter/5.9.md",
-    "Grundläggande datorteknik/Bokuppgifter/3.6.md",
     "attachments/Pasted image 20251118162516.png",
     "Grundläggande datorteknik/Bokuppgifter",
     "Grundläggande datorteknik/Drawing 2025-11-09 22.00.20.excalidraw.md",
