@@ -25,18 +25,15 @@
             "id": "5e1b33c1105ba2a6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Grundläggande datorteknik/Bokuppgifter/5.9.md",
-                "mode": "source",
-                "source": false
+                "file": "Grundläggande datorteknik/Labb PM/1.A.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "5.9"
+              "icon": "excalidraw-icon",
+              "title": "1.A.excalidraw"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242.5,
-    "collapsed": true
+    "width": 242.5
   },
   "right": {
     "id": "81d5e941cabe3e48",
@@ -238,16 +234,16 @@
       }
     ]
   },
-  "active": "58e239da96bdff76",
+  "active": "b8de20121277bccb",
   "lastOpenFiles": [
-    "Grundläggande datorteknik/Bokuppgifter/5.9.md",
-    "Grundläggande datorteknik/Labb PM/1.b.md",
     "Grundläggande datorteknik/Labb PM/1.B.excalidraw.md",
+    "Grundläggande datorteknik/Labb PM/1.b.md",
+    "Grundläggande datorteknik/Labb PM/1.A.excalidraw.md",
+    "Grundläggande datorteknik/Labb PM/1.A.md",
+    "Grundläggande datorteknik/Bokuppgifter/5.9.md",
     "Grundläggande datorteknik/Labb PM/1.B.excalidraw.restored.md",
     "Grundläggande datorteknik/Labb PM/1.B.md",
-    "Grundläggande datorteknik/Labb PM/1.A.excalidraw.md",
     "Grundläggande datorteknik/Labb PM/1_A.tb",
-    "Grundläggande datorteknik/Labb PM/1.A.md",
     "attachments/Pasted Image 20251118193110_399.png",
     "Excalidraw/Scripts/Downloaded/Boolean Operations.md",
     "Excalidraw/Scripts/Downloaded/Connect elements.svg",
