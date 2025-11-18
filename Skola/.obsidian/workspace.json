@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5df9d180630b81ae",
+        "id": "aa9a16bf029c0e80",
         "type": "tabs",
         "children": [
           {
-            "id": "beeec0a5f6e60c6e",
+            "id": "2fcc540e2aa2d558",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -184,10 +184,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "beeec0a5f6e60c6e",
+  "active": "2fcc540e2aa2d558",
   "lastOpenFiles": [
     "Grundläggande datorteknik/Labb PM/Hemuppgift 1.A.md",
     "Grundläggande datorteknik/Labb PM/1.A.excalidraw.md",
+    "Excalidraw/Scripts/Downloaded/Boolean Operations.md",
+    "Excalidraw/Scripts/Downloaded/Connect elements.svg",
+    "Excalidraw/Scripts/Downloaded/Connect elements.md",
+    "Excalidraw/Scripts/Downloaded/Convert freedraw to line.svg",
+    "Excalidraw/Scripts/Downloaded/Convert freedraw to line.md",
+    "Excalidraw/Scripts/Downloaded/Boolean Operations.svg",
+    "Excalidraw/Scripts/Downloaded",
+    "Excalidraw/Scripts",
+    "Excalidraw",
     "Grundläggande datorteknik/Bokuppgifter/5.9.md",
     "Grundläggande datorteknik/Bokuppgifter/3.6.md",
     "Grundläggande datorteknik/Labb PM",
