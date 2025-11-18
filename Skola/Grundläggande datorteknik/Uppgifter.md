@@ -83,5 +83,36 @@
 
 ---
 
+# Inför Labb 1
+## Uppgifter i kursboken
+- [ ] (3.5)
+- [ ] 3.6
+- [ ] 3.10
+- [ ] 3.11
+- [ ] 3.12
+- [x] 3.13
+- [ ] 3.15
+- [ ] 3.16
+- [ ] 3.17
+
+- [ ] 5.1
+- [ ] (5.2)
+
+- [ ] 5.3
+- [ ] 5.4
+- [ ] 5.5
+- [ ] 5.6
+- [ ] 5.7
+- [ ] 5.8
+
+- [ ] 5.9
+- [ ] (5.10*)
+- [ ] (5.11*)
+- [ ] (5.12*)
+\*Dessa uppgifter kan göras efter laborationen
+
+Uppgifter inom parentes är inte strikt obligatoriska, men om man gjort dem blir arbetet med de obligatoriska uppgifterna lättare.
+ 
+---
 # Reference
 - [Exempelsamling (Sample Collection)](https://www.gbgmv.se/exempelsamling-gd/index.html)
