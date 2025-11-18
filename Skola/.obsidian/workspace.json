@@ -90,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242.5,
-    "collapsed": true
+    "width": 242.5
   },
   "right": {
     "id": "81d5e941cabe3e48",
@@ -186,8 +185,10 @@
   },
   "active": "2fcc540e2aa2d558",
   "lastOpenFiles": [
+    "Grundläggande datorteknik/Labb PM/1_A.tb",
     "Grundläggande datorteknik/Labb PM/Hemuppgift 1.A.md",
     "Grundläggande datorteknik/Labb PM/1.A.excalidraw.md",
+    "attachments/Pasted Image 20251118193110_399.png",
     "Excalidraw/Scripts/Downloaded/Boolean Operations.md",
     "Excalidraw/Scripts/Downloaded/Connect elements.svg",
     "Excalidraw/Scripts/Downloaded/Connect elements.md",
