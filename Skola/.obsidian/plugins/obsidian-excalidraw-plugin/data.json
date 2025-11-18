@@ -41,7 +41,7 @@
   "desktopUIMode": "tray",
   "tabletUIMode": "compact",
   "iframeMatchExcalidrawTheme": true,
-  "matchTheme": false,
+  "matchTheme": true,
   "matchThemeAlways": false,
   "matchThemeTrigger": false,
   "defaultMode": "normal",
