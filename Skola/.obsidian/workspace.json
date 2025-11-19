@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "98cd6180778496b9",
+        "id": "154b61838407a7a4",
         "type": "tabs",
         "children": [
           {
-            "id": "c4fe0c10f129a9f7",
+            "id": "69be64014321d8aa",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Grundläggande datorteknik/Labb 1/Uppg 1.6.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Uppg 1.6"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 251.5
+    "width": 280.5
   },
   "right": {
     "id": "81d5e941cabe3e48",
@@ -90,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programmering.md",
+                "file": "Grundläggande datorteknik/Uppgifter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Programmering"
+              "title": "Backlinks for Uppgifter"
             }
           },
           {
@@ -156,63 +160,63 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c4fe0c10f129a9f7",
+  "active": "69be64014321d8aa",
   "lastOpenFiles": [
-    "Grundläggande datorteknik/Uppgifter.md",
-    "Grundläggande datorteknik/Bokuppgifter/5.5.excalidraw.md",
-    "attachments/Pasted Image 20251119032515_628.png",
     "Grundläggande datorteknik/Bokuppgifter/5.4.md",
     "Grundläggande datorteknik/Bokuppgifter/5.4.excalidraw.md",
-    "Grundläggande datorteknik/Bokuppgifter/5.3.md",
-    "attachments/Pasted Image 20251119030302_150.png",
-    "attachments/Pasted image 20251119024530.png",
-    "attachments/Pasted image 20251119024450.png",
-    "Grundläggande datorteknik/Bokuppgifter/5.2.md",
-    "Grundläggande datorteknik/Bokuppgifter/5.2.excalidraw.md",
-    "Grundläggande datorteknik/Bokuppgifter/5_2.tb",
-    "Grundläggande datorteknik/Labb 1/5_2.tb",
-    "attachments/Pasted Image 20251119023815_990.png",
-    "Grundläggande datorteknik/Bokuppgifter/3.16.excalidraw.md",
-    "Grundläggande datorteknik/Bokuppgifter/3.17.md",
-    "Grundläggande datorteknik/Bokuppgifter/3.10.md",
-    "Grundläggande datorteknik/Bokuppgifter/3.6.md",
-    "Grundläggande datorteknik/Bokuppgifter/3.12.md",
-    "Grundläggande datorteknik/Bokuppgifter/5.1.md",
-    "Grundläggande datorteknik/Bokuppgifter/3.15.excalidraw.md",
-    "Grundläggande datorteknik/Bokuppgifter/3.13.excalidraw.md",
-    "attachments/Pasted image 20251119005923.png",
-    "Grundläggande datorteknik/Bokuppgifter/3.11.excalidraw.md",
     "Grundläggande datorteknik/Labb 1/Uppg 1.6.md",
-    "attachments/Pasted image 20251118235752.png",
+    "Grundläggande datorteknik/Labb 1/Uppg 1.3.md",
     "Grundläggande datorteknik/Labb 1/Uppg 1.2.md",
     "Grundläggande datorteknik/Labb 1/Uppg 1.1.md",
-    "Grundläggande datorteknik/Labb 1/Uppg 1.3.md",
-    "Grundläggande datorteknik/Labb 1/1.B.excalidraw.md",
     "Grundläggande datorteknik/Labb 1/1.B.md",
-    "Grundläggande datorteknik/Labb 1/Uppg 1.5.md",
-    "attachments/Pasted image 20251118230116.png",
-    "Grundläggande datorteknik/Labb 1",
-    "Grundläggande datorteknik/Bokuppgifter/5.9.md",
+    "Grundläggande datorteknik/Labb 1/1.B.excalidraw.md",
     "Grundläggande datorteknik/Labb 1/1.A.excalidraw.md",
-    "Grundläggande datorteknik/Labb PM/1_A.tb",
-    "attachments/Pasted Image 20251118193110_399.png",
-    "Excalidraw/Scripts/Downloaded/Connect elements.svg",
+    "Grundläggande datorteknik/Labb 1/1.A.md",
+    "Grundläggande datorteknik/Uppgifter.md",
+    "attachments/Pasted image 20251119024530.png",
+    "attachments/Pasted image 20251119024450.png",
+    "attachments/Pasted image 20251119005923.png",
+    "attachments/Pasted image 20251118235752.png",
+    "attachments/Pasted image 20251118230116.png",
+    "attachments/Pasted image 20251118174928.png",
+    "attachments/Pasted image 20251118162516.png",
+    "attachments/Pasted image 20251118162210.png",
+    "attachments/Pasted Image 20251119032515_628.png",
+    "attachments/Pasted Image 20251119030302_150.png",
+    "attachments",
+    "Grundläggande datorteknik/Labb 1",
+    "Grundläggande datorteknik/Bokuppgifter/5_2.tb",
+    "Grundläggande datorteknik/Bokuppgifter/5.5.excalidraw.md",
+    "Grundläggande datorteknik/Bokuppgifter/5.3.md",
+    "Grundläggande datorteknik/Bokuppgifter/5.2.md",
+    "Grundläggande datorteknik/Bokuppgifter/5.2.excalidraw.md",
+    "Grundläggande datorteknik/Bokuppgifter/5.1.md",
+    "Grundläggande datorteknik/Bokuppgifter/3.17.md",
+    "Grundläggande datorteknik/Bokuppgifter/3.16.excalidraw.md",
+    "Grundläggande datorteknik/Bokuppgifter/3.15.excalidraw.md",
+    "Grundläggande datorteknik/Bokuppgifter/3.13.excalidraw.md",
+    "Grundläggande datorteknik/Bokuppgifter/3.12.md",
+    "Grundläggande datorteknik/Bokuppgifter/3.11.excalidraw.md",
+    "Grundläggande datorteknik/Bokuppgifter/3.10.md",
+    "Excalidraw/Scripts/Downloaded/Convert freedraw to line.md",
+    "Excalidraw/Scripts/Downloaded/Connect elements.md",
+    "Excalidraw/Scripts/Downloaded/Boolean Operations.md",
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
     "Excalidraw",
-    "Grundläggande datorteknik/Labb PM",
-    "attachments",
-    "Grundläggande datorteknik/Bokuppgifter"
+    "Grundläggande datorteknik/Bokuppgifter",
+    "Grundläggande datorteknik",
+    "TDA548 Grundläggande programutveckling"
   ]
 }
