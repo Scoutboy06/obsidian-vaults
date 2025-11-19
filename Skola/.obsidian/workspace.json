@@ -22,7 +22,19 @@
             }
           },
           {
-            "id": "5b3a2a4e134154ee",
+            "id": "36aed7afa06a0e4c",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Grundläggande datorteknik/Bokuppgifter/5.5.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "5.5.excalidraw"
+            }
+          },
+          {
+            "id": "a20a65ef1a9d8bb8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,20 +46,9 @@
               "icon": "lucide-file",
               "title": "5.4"
             }
-          },
-          {
-            "id": "a20a65ef1a9d8bb8",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Grundläggande datorteknik/Bokuppgifter/5.4.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "5.4.excalidraw"
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -197,13 +198,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c9bab301a84ae2a5",
+  "active": "36aed7afa06a0e4c",
   "lastOpenFiles": [
-    "Grundläggande datorteknik/Bokuppgifter/5.3.md",
-    "Grundläggande datorteknik/Bokuppgifter/5.4.excalidraw.md",
-    "attachments/Pasted Image 20251119030302_150.png",
-    "Grundläggande datorteknik/Bokuppgifter/5.4.md",
     "Grundläggande datorteknik/Uppgifter.md",
+    "Grundläggande datorteknik/Bokuppgifter/5.4.md",
+    "Grundläggande datorteknik/Bokuppgifter/5.5.excalidraw.md",
+    "Grundläggande datorteknik/Bokuppgifter/5.4.excalidraw.md",
+    "Grundläggande datorteknik/Bokuppgifter/5.3.md",
+    "attachments/Pasted Image 20251119030302_150.png",
     "attachments/Pasted image 20251119024530.png",
     "attachments/Pasted image 20251119024450.png",
     "Grundläggande datorteknik/Bokuppgifter/5.2.md",
