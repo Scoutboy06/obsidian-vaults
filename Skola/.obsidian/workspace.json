@@ -11,13 +11,30 @@
             "id": "5c2b4ebafd632cc1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Grundläggande datorteknik/Uppgifter.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Uppgifter"
+            }
+          },
+          {
+            "id": "1a87eb1b16b82f5e",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Grundläggande datorteknik/Bokuppgifter/5.2.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "5.2.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,11 +184,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5c2b4ebafd632cc1",
+  "active": "361c3b3dc66795d2",
   "lastOpenFiles": [
+    "Grundläggande datorteknik/Bokuppgifter/5.2.excalidraw.md",
+    "Grundläggande datorteknik/Uppgifter.md",
     "Grundläggande datorteknik/Labb 1/1.A.md",
     "Grundläggande datorteknik/Labb 1/1.A.excalidraw.md",
-    "Grundläggande datorteknik/Uppgifter.md",
     "Grundläggande datorteknik/Labb 1/Uppg 1.6.md",
     "Grundläggande datorteknik/Bokuppgifter/5.4.md",
     "Grundläggande datorteknik/Bokuppgifter/5.4.excalidraw.md",
@@ -196,7 +214,6 @@
     "Grundläggande datorteknik/Bokuppgifter/5.5.excalidraw.md",
     "Grundläggande datorteknik/Bokuppgifter/5.3.md",
     "Grundläggande datorteknik/Bokuppgifter/5.2.md",
-    "Grundläggande datorteknik/Bokuppgifter/5.2.excalidraw.md",
     "Grundläggande datorteknik/Bokuppgifter/5.1.md",
     "Grundläggande datorteknik/Bokuppgifter/3.17.md",
     "Grundläggande datorteknik/Bokuppgifter/3.16.excalidraw.md",
