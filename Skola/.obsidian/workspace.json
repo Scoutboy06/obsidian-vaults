@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "000124a9eff34ee0",
+        "id": "490aa6bc7bfd0f60",
         "type": "tabs",
         "children": [
           {
-            "id": "cc4cc8d336ecc367",
+            "id": "9d949b04f823e8e3",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -167,7 +167,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cc4cc8d336ecc367",
+  "active": "9d949b04f823e8e3",
   "lastOpenFiles": [
     "Grundläggande datorteknik/Bokuppgifter/3.13.excalidraw.md",
     "Grundläggande datorteknik/Bokuppgifter/3.12.md",
