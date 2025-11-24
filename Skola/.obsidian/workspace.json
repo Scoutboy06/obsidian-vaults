@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "490aa6bc7bfd0f60",
+        "id": "234908d8c345cc34",
         "type": "tabs",
         "children": [
           {
-            "id": "9d949b04f823e8e3",
+            "id": "85eb0f3436ae4616",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "excalidraw",
+              "state": {
+                "file": "Grundläggande datorteknik/Bokuppgifter/5.4.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "5.4.excalidraw"
             }
           }
         ]
@@ -74,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5
+    "width": 280.5,
+    "collapsed": true
   },
   "right": {
     "id": "81d5e941cabe3e48",
@@ -167,26 +170,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9d949b04f823e8e3",
+  "active": "85eb0f3436ae4616",
   "lastOpenFiles": [
+    "Grundläggande datorteknik/Bokuppgifter/5.4.excalidraw.md",
+    "Grundläggande datorteknik/Labb 1/Uppg 1.6.md",
+    "Grundläggande datorteknik/Bokuppgifter/5.4.md",
+    "Grundläggande datorteknik/Labb 1/1.B.md",
+    "Grundläggande datorteknik/Labb 1/1.B.excalidraw.md",
+    "Grundläggande datorteknik/Labb 1/1.A.excalidraw.md",
     "Grundläggande datorteknik/Bokuppgifter/3.13.excalidraw.md",
+    "Grundläggande datorteknik/Bokuppgifter/3.15.excalidraw.md",
+    "Grundläggande datorteknik/Labb 1/Uppg 1.2.md",
+    "Grundläggande datorteknik/Labb 1/Uppg 1.1.md",
     "Grundläggande datorteknik/Bokuppgifter/3.12.md",
     "Grundläggande datorteknik/Uppgifter.md",
     "Grundläggande datorteknik/Bokuppgifter/3.16.excalidraw.md",
-    "Grundläggande datorteknik/Bokuppgifter/3.15.excalidraw.md",
     "Grundläggande datorteknik/Bokuppgifter/3.11.excalidraw.md",
     "Grundläggande datorteknik/Bokuppgifter/5.2.excalidraw.md",
     "Grundläggande datorteknik/Bokuppgifter/5.2.md",
     "Grundläggande datorteknik/Labb 1/1.A.md",
-    "Grundläggande datorteknik/Labb 1/1.A.excalidraw.md",
-    "Grundläggande datorteknik/Labb 1/Uppg 1.6.md",
-    "Grundläggande datorteknik/Bokuppgifter/5.4.md",
-    "Grundläggande datorteknik/Bokuppgifter/5.4.excalidraw.md",
     "Grundläggande datorteknik/Labb 1/Uppg 1.3.md",
-    "Grundläggande datorteknik/Labb 1/Uppg 1.2.md",
-    "Grundläggande datorteknik/Labb 1/Uppg 1.1.md",
-    "Grundläggande datorteknik/Labb 1/1.B.md",
-    "Grundläggande datorteknik/Labb 1/1.B.excalidraw.md",
     "attachments/Pasted image 20251119024530.png",
     "attachments/Pasted image 20251119024450.png",
     "attachments/Pasted image 20251119005923.png",
