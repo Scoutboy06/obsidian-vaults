@@ -59,7 +59,7 @@ Nedanstående är en sammanställning av vad en student bör göra för att föl
 ## Lecture 5 (11/11/2025)
 **Reading**
 - [x] Chapter 4 — §4.1–4.4, §4.5–4.5.1
-- [ ] Chapter 5 — §5.6–5.6.4 (binär aritmetik, tvåkomplementsrepresentation, flags)
+- [x] Chapter 5 — §5.6–5.6.4 (binär aritmetik, tvåkomplementsrepresentation, flags)
 
 ---
 
