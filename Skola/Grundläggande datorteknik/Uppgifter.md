@@ -52,9 +52,9 @@
 # Week 2 – Overview
 
 ### Goals
-- [ ] **Read:** Course book ch. 3 + ch. 4 (up to § 4.5.5)  
-- [ ] **Solve (Exempelsamling):** 3.3.1 – 3.3.2, 4.1 – 4.8, 5.1 – 5.6  
-- [ ] **Assignments (course book):** 3.13, 3.15 – 3.17, 5.1 – 5.12 (prep for Lab 1)
+- [x] **Read:** Course book ch. 3 + ch. 4 (up to § 4.5.5)  
+- [ ] **Solve (Exempelsamling):** 3.3.1 – 3.3.2, 4.1 – 4.8, 5.1 – 5.6
+- [x] **Assignments (course book):** 3.13, 3.15 – 3.17, 5.1 – 5.12 (prep for Lab 1)
 
 ---
 
@@ -73,7 +73,7 @@
 
 ## Demo 2
 **Tasks**
-- [ ] See weekly overview for assigned problems  
+- [x] See weekly overview for assigned problems  
 
 ---
 
@@ -103,7 +103,7 @@
 - [x] 5.5
 - [-] 5.6
 - [x] 5.7
-- [ ] 5.8
+- [x] 5.8
 
 - [x] 5.9
 - [ ] (5.10*)
