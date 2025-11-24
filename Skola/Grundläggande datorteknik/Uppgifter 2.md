@@ -44,28 +44,28 @@ Nedanstående är en sammanställning av vad en student bör göra för att föl
 # Week 2 – Overview
 
 ### Goals
-- [ ] **Read:** Course book: hela kapitel 3 och kapitel 4 upp till §4.5.5
+- [x] **Read:** Course book: hela kapitel 3 och kapitel 4 upp till §4.5.5
 - [ ] **Solve (Exempelsamling):** 3.3.1–3.3.2; 4.1–4.8 (inkl. fetmarkerade 4.5–4.8 enligt veckoöversikten); 5.1–5.6
-- [ ] **Assignments (course book, för lab 1):** 3.13; 3.15–3.17; 5.1–5.12 (förberedelse till Lab 1)
+- [x] **Assignments (course book, för lab 1):** 3.13; 3.15–3.17; 5.1–5.12 (förberedelse till Lab 1)
 
 ---
 
 ## Lecture 4 (10/11/2025)
 **Reading**
-- [ ] Chapter 3 — §3.1.7–3.1.9, §3.2–3.2.1 (Karnaugh 4 variabler, don't-care, NAND/NOR-implementation)
+- [x] Chapter 3 — §3.1.7–3.1.9, §3.2–3.2.1 (Karnaugh 4 variabler, don't-care, NAND/NOR-implementation)
 
 ---
 
 ## Lecture 5 (11/11/2025)
 **Reading**
-- [ ] Chapter 4 — §4.1–4.4, §4.5–4.5.1
+- [x] Chapter 4 — §4.1–4.4, §4.5–4.5.1
 - [ ] Chapter 5 — §5.6–5.6.4 (binär aritmetik, tvåkomplementsrepresentation, flags)
 
 ---
 
 ## Demonstration 2 (12/11/2025)
 **Exempelsamling / Uppgifter**
-- [ ] Se veckoöversikt för Demo 2: bland annat uppgifter kopplade till Karnaugh-minimering och binär aritmetik (vecka 2:s lista ovan). Demo 2 tar upp de uppgifter som är fetmarkerade i veckoöversikten.
+- [x] Se veckoöversikt för Demo 2: bland annat uppgifter kopplade till Karnaugh-minimering och binär aritmetik (vecka 2:s lista ovan). Demo 2 tar upp de uppgifter som är fetmarkerade i veckoöversikten.
 
 ---
 
@@ -134,6 +134,7 @@ Nedanstående är en sammanställning av vad en student bör göra för att föl
 
 ---
 
+# Övrigt
 ## Praktiska påminnelser
 - Digiflisp: ladda och testa de medföljande switchbox/.tb-filerna för att simulera uppgifter (finns länkade i föreläsningsanteckningarna).
 - Laborationer: Innan varje lab måste ni få era hemuppgifter godkända under en simuleringsövning av en TA. Ta med utskriven eller lättåtkomlig lösning och få worksheet signerad.
@@ -145,9 +146,3 @@ Nedanstående är en sammanställning av vad en student bör göra för att föl
 - Jag har utgått från den kronologiska ordningen i mappen "Lecture details" och använt de läsanvisningar och uppgiftslistor som står i varje fil. PDF-filen `Läsanvisning.pdf` finns i mappen men har inte inkluderats ordagrant i denna sammanställning.
 - Om du vill att jag även utläser och refererar innehållet i `Läsanvisning.pdf` (eller andra PDF:er / bilagor) kan jag lägga till en kortfattad summering.
 
----
-
-Slut på sammanställning. Om du vill kan jag:
-- lägga till direkta länkar (Canvas/handouts) i filen
-- konvertera checklistan till separata veckovisa TODO-filer eller en kalenderimport
-- ta med innehållet i `Läsanvisning.pdf`
