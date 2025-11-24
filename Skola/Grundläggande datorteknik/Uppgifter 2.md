@@ -29,15 +29,15 @@ Nedanstående är en sammanställning av vad en student bör göra för att föl
 
 ## Demonstration 1 (5/11/2025)
 **Exempelsamling / Uppgifter**
-- [ ] 2.2 a–d
-- [ ] 2.9 d (specifikt nämnt i demo)
-- [ ] 2.10 d (och övriga uppgifter ur listan i veckoöversikten)
+- [x] 2.2 a–d
+- [x] 2.9 d (specifikt nämnt i demo)
+- [x] 2.10 d (och övriga uppgifter ur listan i veckoöversikten)
 
 ---
 
 ## Lecture 3 (6/11/2025)
 **Reading**
-- [ ] Chapter 3 — §3.1.3 – 3.1.8 (minterms, maxterms, DNF/CNF, Karnaugh)
+- [x] Chapter 3 — §3.1.3 – 3.1.8 (minterms, maxterms, DNF/CNF, Karnaugh)
 
 ---
 
