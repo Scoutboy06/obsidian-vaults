@@ -7,23 +7,23 @@ Nedanstående är en sammanställning av vad en student bör göra för att föl
 # Week 1 – Overview
 
 ### Goals
-- [ ] **Read:** Course book: Chapter 1 (intro), Chapter 2 up to §2.1 (inkl. 2.1.4) and Chapter 3 up to §3.1.9
-- [ ] **Solve (Exempelsamling):** 2.1a,b; 2.2a–d; 2.9 a–f (notera d markerad i demo); 2.10 a–f; 2.11 a–h; 3.1.1; 3.1.2; 3.1.3; 3.2.4; 3.2.5; 3.2.7; 3.2.10
-- [ ] **Simulate:** Course book Tasks 3.1 and 3.2 (Digiflisp eller angiven simulator)
+- [x] **Read:** Course book: Chapter 1 (intro), Chapter 2 up to §2.1 (inkl. 2.1.4) and Chapter 3 up to §3.1.9
+- [x] **Solve (Exempelsamling):** 2.1a,b; 2.2a–d; 2.9 a–f (notera d markerad i demo); 2.10 a–f; 2.11 a–h; 3.1.1; 3.1.2; 3.1.3; 3.2.4; 3.2.5; 3.2.7; 3.2.10
+- [x] **Simulate:** Course book Tasks 3.1 and 3.2 (Digiflisp eller angiven simulator)
 
 ---
 
 ## Lecture 1 (3/11/2025)
 **Reading**
-- [ ] Chapter 1 — Introduction (self-study)
-- [ ] Chapter 2 — up to §2.1.4 (pp. 25–30)
+- [x] Chapter 1 — Introduction (self-study)
+- [x] Chapter 2 — up to §2.1.4 (pp. 25–30)
 
 ---
 
 ## Lecture 2 (4/11/2025)
 **Reading**
-- [ ] Chapter 2 — §2.2 (binary codes and basic gates)
-- [ ] Chapter 3 — §3.1 – 3.1.2 and §3.1.9
+- [x] Chapter 2 — §2.2 (binary codes and basic gates)
+- [x] Chapter 3 — §3.1 – 3.1.2 and §3.1.9
 
 ---
 
