@@ -71,8 +71,8 @@ Nedanstående är en sammanställning av vad en student bör göra för att föl
 
 ## Lecture 6 (13/11/2025)
 **Reading**
-- [ ] Chapter 5 — hela kapitel 5 (half/full adders, 4-bit adders/subtracters, shift, decoder, multiplexer/demultiplexer)
-- [ ] Ladda och testa med de medföljande switchbox-/tb-filerna för Digiflisp (fulladder.tb rekommenderas)
+- [x] Chapter 5 — hela kapitel 5 (half/full adders, 4-bit adders/subtracters, shift, decoder, multiplexer/demultiplexer)
+- [-] Ladda och testa med de medföljande switchbox-/tb-filerna för Digiflisp (fulladder.tb rekommenderas)
 
 ---
 
