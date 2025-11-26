@@ -88,7 +88,7 @@ Nedanstående är en sammanställning av vad en student bör göra för att föl
 ## Lecture 7 (17/11/2025)
 **Reading**
 - [x] Chapter 6 — §6.1–6.1.3, §6.1.5–6.1.6
-- [ ] Chapter 7 — §7.1–7.2 (register med D-flipflop, transmission gate)
+- [x] Chapter 7 — §7.1–7.2 (register med D-flipflop, transmission gate)
 
 ---
 
