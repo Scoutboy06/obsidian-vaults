@@ -94,14 +94,14 @@ Nedanstående är en sammanställning av vad en student bör göra för att föl
 
 ## Lecture 8 (18/11/2025)
 **Reading**
-- [ ] Chapter 6 — §6.1.4, §6.1.7, §6.4.1–6.4.3 (JK/T-vippor, analys och syntes av räknare)
-- [ ] Ladda och prova `flipflop.tb` i Digiflisp för exemplen i föreläsningen
+- [x] Chapter 6 — §6.1.4, §6.1.7, §6.4.1–6.4.3 (JK/T-vippor, analys och syntes av räknare)
+- [-] Ladda och prova `flipflop.tb` i Digiflisp för exemplen i föreläsningen
 
 ---
 
 ## Demonstration 3 (20/11/2025)
 **Exempelsamling / Uppgifter**
-- [ ] Se veckoöversikt (v.3) — Demo 3 går igenom uppgifter som är fetmarkerade i veckoöversikten för vecka 3.
+- [-] Se veckoöversikt (v.3) — Demo 3 går igenom uppgifter som är fetmarkerade i veckoöversikten för vecka 3.
 
 ---
 
