@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "143520a4add19df9",
+        "id": "c4bbd7e6bc9a6829",
         "type": "tabs",
         "children": [
           {
-            "id": "5d958ecf3185bd88",
+            "id": "f2a4cdf74b78f549",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -180,9 +180,11 @@
       "xournalpp:Create new Xournal++ note": false
     }
   },
-  "active": "5d958ecf3185bd88",
+  "active": "f2a4cdf74b78f549",
   "lastOpenFiles": [
     "Grundläggande datorteknik/test.pdf",
+    "Grundläggande datorteknik/Lecture details/Drawing 2025-11-28 23.19.13.excalidraw.md",
+    "Grundläggande datorteknik/Lecture details/Läsanvisning.pdf",
     "prompt.md",
     "Grundläggande datorteknik/test.xopp~",
     "Grundläggande datorteknik/test.xopp",
@@ -190,7 +192,6 @@
     "Grundläggande datorteknik/Labb 2/grudat-lab2.pdf",
     "Grundläggande datorteknik/Labb 2/Obekräftade 201028.crdownload",
     "Grundläggande datorteknik/Labb 2",
-    "Grundläggande datorteknik/Lecture details/Läsanvisning.pdf",
     "Uppgifter 2.md",
     "response.md",
     "prompt.md.txt",
@@ -216,7 +217,6 @@
     "Grundläggande datorteknik/Lecture details/demo-4-27112025.md",
     "Grundläggande datorteknik/Lecture details/demo-3-20112025.md",
     "Grundläggande datorteknik/demo-3-20112025.md",
-    "Grundläggande datorteknik/lecture-8-18112025.md",
     "attachments/Pasted image 20251118235752.png",
     "attachments/Pasted image 20251119024530.png",
     "attachments/Pasted image 20251119024450.png",
