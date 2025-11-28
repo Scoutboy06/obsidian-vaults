@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a8809e2fa3926302",
+        "id": "143520a4add19df9",
         "type": "tabs",
         "children": [
           {
-            "id": "cd096e684a3b3a52",
+            "id": "5d958ecf3185bd88",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -180,9 +180,10 @@
       "xournalpp:Create new Xournal++ note": false
     }
   },
-  "active": "cd096e684a3b3a52",
+  "active": "5d958ecf3185bd88",
   "lastOpenFiles": [
     "Grundläggande datorteknik/test.pdf",
+    "prompt.md",
     "Grundläggande datorteknik/test.xopp~",
     "Grundläggande datorteknik/test.xopp",
     "Grundläggande datorteknik/Uppgifter.md",
@@ -192,10 +193,9 @@
     "Grundläggande datorteknik/Lecture details/Läsanvisning.pdf",
     "Uppgifter 2.md",
     "response.md",
-    "prompt.txt",
+    "prompt.md.txt",
     "a.txt",
     "Grundläggande datorteknik/Lecture details/Läsanvisning_EDA433_EDA452 _DIT792_HT24.pdf",
-    "Grundläggande datorteknik/Lecture details/Obekräftade 17515.crdownload",
     "Grundläggande datorteknik/Lecture details/welcome-to-the-course.md",
     "Grundläggande datorteknik/Lecture details/lecture-6-13112025.md",
     "Grundläggande datorteknik/Lecture details/demo-2-12112025.md",
