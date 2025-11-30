@@ -2,6 +2,8 @@
 
 Nedanstående är en sammanställning av vad en student bör göra för att följa kursen. Informationen är hämtad från kursens "Week x (Overview)", föreläsningsanteckningar och demonstrationsnoteringar i mappen "Lecture details".
 
+[Exempelsamling](https://www.gbgmv.se/exempelsamling-gd/index.html)
+
 ---
 
 # Week 1 – Overview

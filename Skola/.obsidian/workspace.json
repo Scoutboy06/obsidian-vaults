@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c4bbd7e6bc9a6829",
+        "id": "954aa1e2821ca2b0",
         "type": "tabs",
         "children": [
           {
-            "id": "f2a4cdf74b78f549",
+            "id": "62df415167378c08",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Grundläggande datorteknik/test.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "test"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -182,23 +180,24 @@
       "xournalpp:Create new Xournal++ note": false
     }
   },
-  "active": "f2a4cdf74b78f549",
+  "active": "60ce05e4eaeab862",
   "lastOpenFiles": [
+    "Grundläggande datorteknik/Exempelsamling/4.7.pdf",
+    "Grundläggande datorteknik/Exempelsamling/4.5.pdf",
+    "Grundläggande datorteknik/Exempelsamling/4.4.pdf",
     "Grundläggande datorteknik/test.pdf",
+    "Grundläggande datorteknik/Uppgifter.md",
     "Grundläggande datorteknik/Lecture details/Drawing 2025-11-28 23.19.13.excalidraw.md",
     "Grundläggande datorteknik/Lecture details/Läsanvisning.pdf",
     "prompt.md",
     "Grundläggande datorteknik/test.xopp~",
     "Grundläggande datorteknik/test.xopp",
-    "Grundläggande datorteknik/Uppgifter.md",
     "Grundläggande datorteknik/Labb 2/grudat-lab2.pdf",
     "Grundläggande datorteknik/Labb 2/Obekräftade 201028.crdownload",
     "Grundläggande datorteknik/Labb 2",
     "Uppgifter 2.md",
     "response.md",
     "prompt.md.txt",
-    "a.txt",
-    "Grundläggande datorteknik/Lecture details/Läsanvisning_EDA433_EDA452 _DIT792_HT24.pdf",
     "Grundläggande datorteknik/Lecture details/welcome-to-the-course.md",
     "Grundläggande datorteknik/Lecture details/lecture-6-13112025.md",
     "Grundläggande datorteknik/Lecture details/demo-2-12112025.md",
