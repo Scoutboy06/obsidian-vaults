@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "954aa1e2821ca2b0",
+        "id": "947b962e83d7cd23",
         "type": "tabs",
         "children": [
           {
-            "id": "62df415167378c08",
+            "id": "4976b7ba7fb8d12a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Grundläggande datorteknik/Uppgifter.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Uppgifter"
             }
           }
         ]
@@ -180,24 +184,23 @@
       "xournalpp:Create new Xournal++ note": false
     }
   },
-  "active": "60ce05e4eaeab862",
+  "active": "4976b7ba7fb8d12a",
   "lastOpenFiles": [
+    "Grundläggande datorteknik/Exempelsamling/5.pdf",
+    "Grundläggande datorteknik/Uppgifter.md",
+    "Grundläggande datorteknik/Exempelsamling/5.xopp",
+    "prompt.md",
     "Grundläggande datorteknik/Exempelsamling/4.7.pdf",
     "Grundläggande datorteknik/Exempelsamling/4.5.pdf",
     "Grundläggande datorteknik/Exempelsamling/4.4.pdf",
     "Grundläggande datorteknik/test.pdf",
-    "Grundläggande datorteknik/Uppgifter.md",
     "Grundläggande datorteknik/Lecture details/Drawing 2025-11-28 23.19.13.excalidraw.md",
     "Grundläggande datorteknik/Lecture details/Läsanvisning.pdf",
-    "prompt.md",
     "Grundläggande datorteknik/test.xopp~",
     "Grundläggande datorteknik/test.xopp",
     "Grundläggande datorteknik/Labb 2/grudat-lab2.pdf",
-    "Grundläggande datorteknik/Labb 2/Obekräftade 201028.crdownload",
-    "Grundläggande datorteknik/Labb 2",
     "Uppgifter 2.md",
     "response.md",
-    "prompt.md.txt",
     "Grundläggande datorteknik/Lecture details/welcome-to-the-course.md",
     "Grundläggande datorteknik/Lecture details/lecture-6-13112025.md",
     "Grundläggande datorteknik/Lecture details/demo-2-12112025.md",
