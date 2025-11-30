@@ -82,7 +82,7 @@ Nedanstående är en sammanställning av vad en student bör göra för att föl
 
 ### Goals
 - [x] **Read:** Course book: kapitel 5 och 6 (hela), samt kapitel 7 upp till och med §7.4.3
-- [ ] **Solve (Exempelsamling):** 6.1.1, 6.1.2, 6.1.3, 6.1.4, 6.1.5; 6.2.1–6.2.4; 6.3.1; 6.3.2; 6.5.2; 6.6.2–6.6.3; 7.2.2; 7.3.3 (enligt veckoöversikten)
+- [ ] **Solve (Exempelsamling):** 6.1.1–6.1.5; 6.2.1–6.2.4; 6.3.1; 6.3.2; 6.5.2; 6.6.2–6.6.3; 7.2.2; 7.3.3 (enligt veckoöversikten)
 - [ ] **Assignments (course book, för lab 2):** 6.5, 6.6, 6.1–6.4, (6.8), 6.9, 7.3, 7.4, 7.10, 7.11, (7.6), (7.9), 7.12, 7.20, 7.22, (7.24), 7.25, 7.26
 
 ---
