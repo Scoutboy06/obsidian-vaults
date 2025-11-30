@@ -11,12 +11,14 @@
             "id": "4976b7ba7fb8d12a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Grundläggande datorteknik/Exempelsamling/6.2.1.pdf"
+                "file": "Grundläggande datorteknik/Uppgifter.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "6.2.1"
+              "icon": "lucide-file",
+              "title": "Uppgifter"
             }
           }
         ]
@@ -184,6 +186,10 @@
   },
   "active": "4976b7ba7fb8d12a",
   "lastOpenFiles": [
+    "Grundläggande datorteknik/Exempelsamling/6.2.4.pdf",
+    "Grundläggande datorteknik/Exempelsamling/6.2.4.xopp",
+    "Grundläggande datorteknik/Exempelsamling/6.2.3.xopp~",
+    "Grundläggande datorteknik/Exempelsamling/6.2.1.pdf",
     "Grundläggande datorteknik/Exempelsamling/6.2.3.pdf",
     "Grundläggande datorteknik/Exempelsamling/6.2.3.xopp",
     "Grundläggande datorteknik/Exempelsamling/6.2.2.xopp~",
@@ -191,10 +197,6 @@
     "Grundläggande datorteknik/Exempelsamling/6.2.2.xopp",
     "Grundläggande datorteknik/Exempelsamling/6.1.1.pdf",
     "Grundläggande datorteknik/Exempelsamling/6.1.2.pdf",
-    "Grundläggande datorteknik/Exempelsamling/6.1.3.pdf",
-    "Grundläggande datorteknik/Exempelsamling/6.2.1.pdf",
-    "Grundläggande datorteknik/Exempelsamling/6.1.4.pdf",
-    "Grundläggande datorteknik/Exempelsamling/6.1.5.pdf",
     "Grundläggande datorteknik/Uppgifter.md",
     "prompt.md",
     "Grundläggande datorteknik/Lecture details/Drawing 2025-11-28 23.19.13.excalidraw.md",
