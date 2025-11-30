@@ -47,7 +47,7 @@ Nedanstående är en sammanställning av vad en student bör göra för att föl
 
 ### Goals
 - [x] **Read:** Course book: hela kapitel 3 och kapitel 4 upp till §4.5.5
-- [ ] **Solve (Exempelsamling):** 3.3.1–3.3.2; 4.1–4.8 (inkl. fetmarkerade 4.5–4.8 enligt veckoöversikten); 5.1–5.6
+- [x] **Solve (Exempelsamling):** 3.3.1–3.3.2; 4.1–4.8 (inkl. fetmarkerade 4.5–4.8 enligt veckoöversikten); 5.1–5.6
 - [x] **Assignments (course book, för lab 1):** 3.13; 3.15–3.17; 5.1–5.12 (förberedelse till Lab 1)
 
 ---
