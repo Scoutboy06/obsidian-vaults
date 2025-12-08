@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "947b962e83d7cd23",
+        "id": "bcd2d26f0af39c3d",
         "type": "tabs",
         "children": [
           {
-            "id": "4976b7ba7fb8d12a",
+            "id": "8002a9f4001d324d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grundläggande datorteknik/Uppgifter.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Uppgifter"
+              "title": "New tab"
             }
           }
         ]
@@ -184,8 +180,11 @@
       "xournalpp:Create new Xournal++ note": false
     }
   },
-  "active": "4976b7ba7fb8d12a",
+  "active": "60ce05e4eaeab862",
   "lastOpenFiles": [
+    "Grundläggande datorteknik/Labb 3/grudat-lab3.xopp",
+    "Grundläggande datorteknik/Labb 3/grudat-lab3.pdf",
+    "Grundläggande datorteknik/Uppgifter.md",
     "Grundläggande datorteknik/Exempelsamling/7.3.3.xopp~",
     "Grundläggande datorteknik/Exempelsamling/7.3.3.pdf",
     "Grundläggande datorteknik/Exempelsamling/7.3.3.xopp",
@@ -195,9 +194,6 @@
     "Grundläggande datorteknik/Exempelsamling/7.2.2.xopp",
     "Grundläggande datorteknik/Exempelsamling/6.6.2.xopp~",
     "Grundläggande datorteknik/Exempelsamling/6.6.2.pdf",
-    "Grundläggande datorteknik/Exempelsamling/6.6.2.xopp",
-    "Grundläggande datorteknik/Exempelsamling/6.3.2.xopp~",
-    "Grundläggande datorteknik/Uppgifter.md",
     "prompt.md",
     "Grundläggande datorteknik/Lecture details/Drawing 2025-11-28 23.19.13.excalidraw.md",
     "Uppgifter 2.md",
