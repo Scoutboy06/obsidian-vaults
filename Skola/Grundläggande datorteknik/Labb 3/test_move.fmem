@@ -1,0 +1,11 @@
+#setMemory 20=DF
+#setMemory 21=10
+#setMemory 22=02
+#setMemory 23=38
+#setMemory 24=10
+#setMemory 25=24
+#setMemory 26=20
+#setMemory 27=21
+#setMemory 28=21
+
+#setMemory FF=20
