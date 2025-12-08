@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bcd2d26f0af39c3d",
+        "id": "75153c69db10520a",
         "type": "tabs",
         "children": [
           {
-            "id": "8002a9f4001d324d",
+            "id": "2983a4653f8b81a6",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -180,10 +180,10 @@
       "xournalpp:Create new Xournal++ note": false
     }
   },
-  "active": "60ce05e4eaeab862",
+  "active": "2983a4653f8b81a6",
   "lastOpenFiles": [
-    "Grundläggande datorteknik/Labb 3/grudat-lab3.xopp",
     "Grundläggande datorteknik/Labb 3/grudat-lab3.pdf",
+    "Grundläggande datorteknik/Labb 3/grudat-lab3.xopp",
     "Grundläggande datorteknik/Uppgifter.md",
     "Grundläggande datorteknik/Exempelsamling/7.3.3.xopp~",
     "Grundläggande datorteknik/Exempelsamling/7.3.3.pdf",
