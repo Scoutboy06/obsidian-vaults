@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "d0ee69b453bed5cc",
+        "id": "98cd6180778496b9",
         "type": "tabs",
         "children": [
           {
-            "id": "9ae9c7f7646cbd4c",
+            "id": "c4fe0c10f129a9f7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "Grundläggande datorteknik/Labb 3/grudat-lab3.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "grudat-lab3"
             }
           }
         ]
@@ -74,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5
+    "width": 251.5
   },
   "right": {
     "id": "81d5e941cabe3e48",
@@ -90,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grundläggande datorteknik/Uppgifter.md",
+                "file": "Programmering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Uppgifter"
+              "title": "Backlinks for Programmering"
             }
           },
           {
@@ -146,19 +148,8 @@
               "icon": "lucide-list",
               "title": "Outline of Programmering"
             }
-          },
-          {
-            "id": "ecbe504b019c56d7",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -167,66 +158,64 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "xournalpp:Create new Xournal++ note": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "9ae9c7f7646cbd4c",
+  "active": "c4fe0c10f129a9f7",
   "lastOpenFiles": [
-    "Grundläggande datorteknik/Labb 3/grudat-lab3.pdf",
-    "Grundläggande datorteknik/Labb 3/grudat-lab3.xopp",
-    "Grundläggande datorteknik/Uppgifter.md",
-    "Grundläggande datorteknik/Exempelsamling/7.3.3.xopp~",
-    "Grundläggande datorteknik/Exempelsamling/7.3.3.pdf",
-    "Grundläggande datorteknik/Exempelsamling/7.3.3.xopp",
-    "Grundläggande datorteknik/Exempelsamling/7.3.pdf",
-    "Grundläggande datorteknik/Exempelsamling/7.3.xopp",
-    "Grundläggande datorteknik/Exempelsamling/7.2.2.pdf",
-    "Grundläggande datorteknik/Exempelsamling/7.2.2.xopp",
-    "Grundläggande datorteknik/Exempelsamling/6.6.2.xopp~",
-    "Grundläggande datorteknik/Exempelsamling/6.6.2.pdf",
-    "prompt.md",
-    "Grundläggande datorteknik/Lecture details/Drawing 2025-11-28 23.19.13.excalidraw.md",
-    "Uppgifter 2.md",
-    "response.md",
-    "Grundläggande datorteknik/Lecture details/welcome-to-the-course.md",
-    "Grundläggande datorteknik/Lecture details/lecture-6-13112025.md",
-    "Grundläggande datorteknik/Lecture details/demo-2-12112025.md",
-    "Grundläggande datorteknik/Lecture details/lecture-5-11112025.md",
-    "Grundläggande datorteknik/Lecture details/lecture-4-10112025.md",
-    "Grundläggande datorteknik/Lecture details/week-2-overview.md",
-    "Grundläggande datorteknik/Lecture details/lecture-3-6112025.md",
-    "Grundläggande datorteknik/Lecture details/demonstration-1-5112025.md",
-    "Grundläggande datorteknik/Lecture details/lecture-2-4112025.md",
-    "Grundläggande datorteknik/Lecture details/lecture-1-3112025.md",
-    "Grundläggande datorteknik/Lecture details/week-1-overview.md",
-    "Grundläggande datorteknik/Lecture details/week-4-overview.md",
+    "Grundläggande datorteknik/Labb 3/flisp_ins.fcs",
     "Grundläggande datorteknik/Lecture details/week-3-overview.md",
-    "Grundläggande datorteknik/Lecture details/lecture-10-25112025.md",
+    "Grundläggande datorteknik/Lecture details/welcome-to-the-course.md",
+    "Grundläggande datorteknik/Lecture details/week-2-overview.md",
+    "Grundläggande datorteknik/Lecture details/week-4-overview.md",
+    "Grundläggande datorteknik/Lecture details/week-1-overview.md",
+    "Grundläggande datorteknik/Lecture details/lecture-7-17112025.md",
+    "Grundläggande datorteknik/Lecture details/Läsanvisning.pdf",
     "Grundläggande datorteknik/Lecture details/lecture-9-24112025.md",
     "Grundläggande datorteknik/Lecture details/lecture-8-18112025.md",
-    "Grundläggande datorteknik/Lecture details/lecture-7-17112025.md",
+    "Grundläggande datorteknik/Lecture details/lecture-6-13112025.md",
+    "Grundläggande datorteknik/Lecture details/lecture-4-10112025.md",
+    "Grundläggande datorteknik/Lecture details/lecture-5-11112025.md",
+    "Grundläggande datorteknik/Lecture details/lecture-3-6112025.md",
+    "Grundläggande datorteknik/Lecture details/lecture-2-4112025.md",
+    "Grundläggande datorteknik/Lecture details/lecture-10-25112025.md",
+    "Grundläggande datorteknik/Lecture details/lecture-1-3112025.md",
+    "Grundläggande datorteknik/Lecture details/demonstration-1-5112025.md",
     "Grundläggande datorteknik/Lecture details/demo-4-27112025.md",
     "Grundläggande datorteknik/Lecture details/demo-3-20112025.md",
-    "Grundläggande datorteknik/demo-3-20112025.md",
-    "attachments/Pasted image 20251118235752.png",
+    "Grundläggande datorteknik/Lecture details/demo-2-12112025.md",
+    "Grundläggande datorteknik/Lecture details",
+    "Grundläggande datorteknik/Labb 3/grudat-lab3.xopp",
+    "Grundläggande datorteknik/Labb 3/test_move.fmem",
+    "Grundläggande datorteknik/Labb 3/grudat-lab3.pdf",
+    "Grundläggande datorteknik/Labb 3",
+    "Grundläggande datorteknik/Labb 2/grudat-lab2.pdf",
+    "Grundläggande datorteknik/Labb 2",
+    "Grundläggande datorteknik/Exempelsamling/7.2.2.xopp",
+    "Grundläggande datorteknik/Exempelsamling/7.3.3.xopp",
+    "Grundläggande datorteknik/Uppgifter.md",
+    "Grundläggande datorteknik/Bokuppgifter/5.5.excalidraw.md",
+    "attachments/Pasted Image 20251119032515_628.png",
+    "Grundläggande datorteknik/Bokuppgifter/5.4.md",
+    "Grundläggande datorteknik/Bokuppgifter/5.4.excalidraw.md",
+    "Grundläggande datorteknik/Bokuppgifter/5.3.md",
+    "attachments/Pasted Image 20251119030302_150.png",
     "attachments/Pasted image 20251119024530.png",
     "attachments/Pasted image 20251119024450.png",
+    "Grundläggande datorteknik/Bokuppgifter/5.2.md",
+    "attachments/Pasted Image 20251119023815_990.png",
     "attachments/Pasted image 20251119005923.png",
+    "attachments/Pasted image 20251118235752.png",
     "attachments/Pasted image 20251118230116.png",
-    "attachments/Pasted image 20251118174928.png",
-    "attachments/Pasted image 20251118162516.png",
-    "attachments/Pasted image 20251118162210.png",
-    "attachments/Pasted Image 20251119032515_628.png",
-    "attachments/Pasted Image 20251119030302_150.png"
+    "attachments/Pasted Image 20251118193110_399.png",
+    "Excalidraw/Scripts/Downloaded/Connect elements.svg"
   ]
 }

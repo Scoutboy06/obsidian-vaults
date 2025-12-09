@@ -3,5 +3,5 @@
   "vimMode": true,
   "attachmentFolderPath": "attachments",
   "newFileLocation": "current",
-  "showUnsupportedFiles": false
+  "showUnsupportedFiles": true
 }
