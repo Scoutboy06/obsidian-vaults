@@ -2,7 +2,6 @@
 :I00Q4|M(PC) -> TA; PC+1 -> PC|
 
 %LDTA	=I00*Q4
-%OEPC	=I00*Q4
 %INCPC	=I00*Q4
 %MR	=I00*Q4
 :I00Q5|M(PC) -> R; PC+1 -> PC|
