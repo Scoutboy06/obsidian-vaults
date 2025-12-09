@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "98cd6180778496b9",
+        "id": "9f8d7d3db2ed1806",
         "type": "tabs",
         "children": [
           {
-            "id": "c4fe0c10f129a9f7",
+            "id": "dad7e789088c1384",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -169,9 +169,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c4fe0c10f129a9f7",
+  "active": "dad7e789088c1384",
   "lastOpenFiles": [
     "Grundläggande datorteknik/Labb 3/grudat-lab3.xopp~",
+    "Grundläggande datorteknik/Labb 3/grudat-lab3.pdf",
     "Grundläggande datorteknik/Labb 3/flisp_ins.fcs",
     "Grundläggande datorteknik/Lecture details/week-3-overview.md",
     "Grundläggande datorteknik/Lecture details/welcome-to-the-course.md",
@@ -196,7 +197,6 @@
     "Grundläggande datorteknik/Lecture details",
     "Grundläggande datorteknik/Labb 3/grudat-lab3.xopp",
     "Grundläggande datorteknik/Labb 3/test_move.fmem",
-    "Grundläggande datorteknik/Labb 3/grudat-lab3.pdf",
     "Grundläggande datorteknik/Labb 3",
     "Grundläggande datorteknik/Labb 2/grudat-lab2.pdf",
     "Grundläggande datorteknik/Labb 2",
