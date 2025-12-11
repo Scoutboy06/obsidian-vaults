@@ -36,20 +36,6 @@
               "icon": "lucide-file-text",
               "title": "Grundläggande datorteknik"
             }
-          },
-          {
-            "id": "b9cf1c768c0240bf",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Grundläggande datorteknik/Labb 3/grudat-lab3.pdf"
-              },
-              "pinned": true,
-              "icon": "lucide-file-text",
-              "title": "grudat-lab3"
-            }
           }
         ],
         "currentTab": 1
