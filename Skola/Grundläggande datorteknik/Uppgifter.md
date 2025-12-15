@@ -120,7 +120,7 @@ Nedanstående är en sammanställning av vad en student bör göra för att föl
   - [x] 7.2.2
   - [x] 7.3.3
 - **Assignments (course book, för lab 2)**
-  - [ ] 6.5
+  - [-] 6.5
   - [ ] 6.6
   - [ ] 6.1–6.4
   - [ ] (6.8)
