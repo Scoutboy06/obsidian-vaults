@@ -9,9 +9,26 @@ Nedanstående är en sammanställning av vad en student bör göra för att föl
 # Week 1 – Overview
 
 ### Goals
-- [x] **Read:** Course book: Chapter 1 (intro), Chapter 2 up to §2.1 (inkl. 2.1.4) and Chapter 3 up to §3.1.9
-- [x] **Solve (Exempelsamling):** 2.1a,b; 2.2a–d; 2.9 a–f (notera d markerad i demo); 2.10 a–f; 2.11 a–h; 3.1.1; 3.1.2; 3.1.3; 3.2.4; 3.2.5; 3.2.7; 3.2.10
-- [x] **Simulate:** Course book Tasks 3.1 and 3.2 (Digiflisp eller angiven simulator)
+- **Read**
+  - [x] Course book: Chapter 1 — Introduction
+  - [x] Course book: Chapter 2 — up to §2.1 (inkl. 2.1.4)
+  - [x] Course book: Chapter 3 — up to §3.1.9
+- **Solve (Exempelsamling)**
+  - [x] 2.1 a,b
+  - [x] 2.2 a–d
+  - [x] 2.9 a–f (notera d markerad i demo)
+  - [x] 2.10 a–f
+  - [x] 2.11 a–h
+  - [x] 3.1.1
+  - [x] 3.1.2
+  - [x] 3.1.3
+  - [x] 3.2.4
+  - [x] 3.2.5
+  - [x] 3.2.7
+  - [x] 3.2.10
+- **Simulate**
+  - [x] Course book Task 3.1 (Digiflisp eller angiven simulator)
+  - [x] Course book Task 3.2 (Digiflisp eller angiven simulator)
 
 ---
 
@@ -46,9 +63,17 @@ Nedanstående är en sammanställning av vad en student bör göra för att föl
 # Week 2 – Overview
 
 ### Goals
-- [x] **Read:** Course book: hela kapitel 3 och kapitel 4 upp till §4.5.5
-- [x] **Solve (Exempelsamling):** 3.3.1–3.3.2; 4.1–4.8 (inkl. fetmarkerade 4.5–4.8 enligt veckoöversikten); 5.1–5.6
-- [x] **Assignments (course book, för lab 1):** 3.13; 3.15–3.17; 5.1–5.12 (förberedelse till Lab 1)
+- **Read**
+  - [x] Course book: Kapitel 3 — hela kapitlet
+  - [x] Course book: Kapitel 4 — upp till §4.5.5
+- **Solve (Exempelsamling)**
+  - [x] 3.3.1–3.3.2
+  - [x] 4.1–4.8 (inkl. fetmarkerade 4.5–4.8 enligt veckoöversikten)
+  - [x] 5.1–5.6
+- **Assignments (course book, för lab 1)**
+  - [x] 3.13
+  - [x] 3.15–3.17
+  - [x] 5.1–5.12 (förberedelse till Lab 1)
 
 ---
 
@@ -81,9 +106,37 @@ Nedanstående är en sammanställning av vad en student bör göra för att föl
 # Week 3 – Overview
 
 ### Goals
-- [x] **Read:** Course book: kapitel 5 och 6 (hela), samt kapitel 7 upp till och med §7.4.3
-- [x] **Solve (Exempelsamling):** 6.1.1–6.1.5; 6.2.1–6.2.4; 6.3.1; 6.3.2; 6.5.2; 6.6.2–6.6.3; 7.2.2; 7.3.3 (enligt veckoöversikten)
-- [ ] **Assignments (course book, för lab 2):** 6.5, 6.6, 6.1–6.4, (6.8), 6.9, 7.3, 7.4, 7.10, 7.11, (7.6), (7.9), 7.12, 7.20, 7.22, (7.24), 7.25, 7.26
+- **Read**
+  - [x] Course book: Kapitel 5 — hela kapitlet
+  - [x] Course book: Kapitel 6 — hela kapitlet
+  - [x] Course book: Kapitel 7 — upp till och med §7.4.3
+- **Solve (Exempelsamling)**
+  - [x] 6.1.1–6.1.5
+  - [x] 6.2.1–6.2.4
+  - [x] 6.3.1
+  - [x] 6.3.2
+  - [x] 6.5.2
+  - [x] 6.6.2–6.6.3
+  - [x] 7.2.2
+  - [x] 7.3.3
+- **Assignments (course book, för lab 2)**
+  - [ ] 6.5
+  - [ ] 6.6
+  - [ ] 6.1–6.4
+  - [ ] (6.8)
+  - [ ] 6.9
+  - [ ] 7.3
+  - [ ] 7.4
+  - [ ] 7.10
+  - [ ] 7.11
+  - [ ] (7.6)
+  - [ ] (7.9)
+  - [ ] 7.12
+  - [ ] 7.20
+  - [ ] 7.22
+  - [ ] (7.24)
+  - [ ] 7.25
+  - [ ] 7.26
 
 ---
 
@@ -110,9 +163,24 @@ Nedanstående är en sammanställning av vad en student bör göra för att föl
 # Week 4 – Overview
 
 ### Goals
-- [ ] **Read:** Course book: Kapitel 7 till uppgift 7.29 och Kapitel 8 upp till §8.3
-- [ ] **Solve (Exempelsamling):** 7.1.1; 7.2.1; 7.3.1; (7.3.2); 7.3.3; 7.3.4 — (7.3.2 och andra fetmarkerade tas upp vid Demo 4)
-- [ ] **Assignments (course book, för lab 3):** 8.1, 8.2, 8.3, 8.7, 8.9 (och övriga uppgifter listade som förberedelse i veckoöversikten)
+- **Read**
+  - [ ] Course book: Kapitel 7 — till uppgift 7.29
+  - [ ] Course book: Kapitel 8 — upp till §8.3
+- **Solve (Exempelsamling)**
+  - [ ] 7.1.1
+  - [ ] 7.2.1
+  - [ ] 7.3.1
+  - [ ] (7.3.2)
+  - [ ] 7.3.3
+  - [ ] 7.3.4
+  - [ ] (7.3.2 och andra fetmarkerade tas upp vid Demo 4)
+- **Assignments (course book, för lab 3)**
+  - [ ] 8.1
+  - [ ] 8.2
+  - [ ] 8.3
+  - [ ] 8.7
+  - [ ] 8.9
+  - [ ] övriga uppgifter listade som förberedelse i veckoöversikten
 
 ---
 
@@ -135,16 +203,3 @@ Nedanstående är en sammanställning av vad en student bör göra för att föl
 - [ ] 7.3.2; 7.3.4; 6.3.1; 6.4.1a (särskilt uppgifter kopplade till datapath/ALU och räknare)
 
 ---
-
-# Övrigt
-## Praktiska påminnelser
-- Digiflisp: ladda och testa de medföljande switchbox/.tb-filerna för att simulera uppgifter (finns länkade i föreläsningsanteckningarna).
-- Laborationer: Innan varje lab måste ni få era hemuppgifter godkända under en simuleringsövning av en TA. Ta med utskriven eller lättåtkomlig lösning och få worksheet signerad.
-- Voluntary knowledge tests: finns före varje laboration (ger bonuspoäng vid godkänt resultat).
-
----
-
-## Anmärkningar / antaganden
-- Jag har utgått från den kronologiska ordningen i mappen "Lecture details" och använt de läsanvisningar och uppgiftslistor som står i varje fil. PDF-filen `Läsanvisning.pdf` finns i mappen men har inte inkluderats ordagrant i denna sammanställning.
-- Om du vill att jag även utläser och refererar innehållet i `Läsanvisning.pdf` (eller andra PDF:er / bilagor) kan jag lägga till en kortfattad summering.
-
