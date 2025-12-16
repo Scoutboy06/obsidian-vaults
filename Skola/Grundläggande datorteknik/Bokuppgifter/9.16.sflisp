@@ -1,14 +1,12 @@
-DIPSWITCH: EQU $FC
-SEGMENT7:
-	ORG $0
-	
-seg_table:
-	
-	ORG $20
-start:
-DisplaySeg:
-	
-
-	JMP start
-	ORG $FF
-	
+DIPSWITCH: 		EQU $FC
+SEGMENT7:		
+				ORG $0
+seg_table:		FCB 63,6,91,79,102,109,125,7,127,111
+				
+				ORG $20
+start:			
+DisplaySeg:		LDX DIPSWITCH
+				
+				
+				JMP start
+				ORG $FF
