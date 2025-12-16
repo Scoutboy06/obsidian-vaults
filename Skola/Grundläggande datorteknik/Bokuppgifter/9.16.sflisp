@@ -1,0 +1,15 @@
+DIPSWITCH:
+	
+SEGMENT7:
+	ORG $0
+	
+seg_table:
+	
+	ORG $20
+start:
+DisplaySeg:
+	
+
+	JMP start
+	ORG $FF
+	
