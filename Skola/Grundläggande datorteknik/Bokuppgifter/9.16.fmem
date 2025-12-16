@@ -18,6 +18,8 @@ File: 9.16.fmem
  #setMemory  21=FC
  #setMemory  22=F3
  #setMemory  23=00
- #setMemory  24=33
- #setMemory  25=20
+ #setMemory  24=E1
+ #setMemory  25=FB
+ #setMemory  26=33
+ #setMemory  27=20
  #setMemory  FF=20
