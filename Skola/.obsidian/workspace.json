@@ -4,37 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d0ee69b453bed5cc",
+        "id": "3b779f4b85bac3f5",
         "type": "tabs",
         "children": [
           {
-            "id": "99078f4f03177c73",
+            "id": "725f7a721e6228a8",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grundläggande datorteknik/Uppgifter.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Uppgifter"
-            }
-          },
-          {
-            "id": "30cbb1bc8dba8025",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Grundläggande datorteknik/Grundläggande datorteknik.pdf"
-              },
-              "pinned": true,
-              "icon": "lucide-file-text",
-              "title": "Grundläggande datorteknik"
+              "title": "New tab"
             }
           }
         ]
@@ -200,14 +180,17 @@
       "xournalpp:Create new Xournal++ note": false
     }
   },
-  "active": "60ce05e4eaeab862",
+  "active": "725f7a721e6228a8",
   "lastOpenFiles": [
+    "Grundläggande datorteknik/Uppgifter.md",
+    "Grundläggande datorteknik/Grundläggande datorteknik.pdf",
+    "Grundläggande datorteknik/Lecture details/lecture-6-13112025.md",
+    "Grundläggande datorteknik/Lecture details/lecture-5-11112025.md",
+    "Grundläggande datorteknik/Lecture details/lecture-4-10112025.md",
     "Grundläggande datorteknik/Lecture details/Läsanvisning.pdf",
     "Grundläggande datorteknik/Lecture details/lecture-1-3112025.md",
     "Grundläggande datorteknik/Lecture details/lecture-2-4112025.md",
     "Grundläggande datorteknik/Lecture details/lecture-3-6112025.md",
-    "Grundläggande datorteknik/Uppgifter.md",
-    "Grundläggande datorteknik/Grundläggande datorteknik.pdf",
     "Grundläggande datorteknik/Labb 3/grudat-lab3.xopp~",
     "Grundläggande datorteknik/Labb 3/grudat-lab3.pdf",
     "Grundläggande datorteknik/Labb 3/flisp_ins.fcs~",
@@ -216,16 +199,12 @@
     "Grundläggande datorteknik/Labb 3/grudat-lab3.xopp",
     "Grundläggande datorteknik/Exempelsamling/7.3.3.xopp~",
     "Grundläggande datorteknik/Exempelsamling/7.3.3.pdf",
-    "Grundläggande datorteknik/Exempelsamling/7.3.3.xopp",
     "prompt.md",
     "Grundläggande datorteknik/Lecture details/Drawing 2025-11-28 23.19.13.excalidraw.md",
     "Uppgifter 2.md",
     "response.md",
     "Grundläggande datorteknik/Lecture details/welcome-to-the-course.md",
-    "Grundläggande datorteknik/Lecture details/lecture-6-13112025.md",
     "Grundläggande datorteknik/Lecture details/demo-2-12112025.md",
-    "Grundläggande datorteknik/Lecture details/lecture-5-11112025.md",
-    "Grundläggande datorteknik/Lecture details/lecture-4-10112025.md",
     "Grundläggande datorteknik/Lecture details/week-2-overview.md",
     "Grundläggande datorteknik/Lecture details/demonstration-1-5112025.md",
     "Grundläggande datorteknik/Lecture details/week-1-overview.md",
