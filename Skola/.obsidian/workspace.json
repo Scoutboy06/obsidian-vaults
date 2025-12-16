@@ -11,12 +11,12 @@
             "id": "725f7a721e6228a8",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "image",
               "state": {
-                "file": "Grundläggande datorteknik/Labb 4/grudat-lab4.pdf"
+                "file": "Grundläggande datorteknik/rn_image_picker_lib_temp_8a1f8fba-e05a-41b3-b23d-9e85ed14c2b8.jpg"
               },
-              "icon": "lucide-file-text",
-              "title": "grudat-lab4"
+              "icon": "lucide-image",
+              "title": "rn_image_picker_lib_temp_8a1f8fba-e05a-41b3-b23d-9e85ed14c2b8"
             }
           }
         ]
@@ -76,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5,
-    "collapsed": true
+    "width": 280.5
   },
   "right": {
     "id": "81d5e941cabe3e48",
@@ -185,14 +184,14 @@
   },
   "active": "725f7a721e6228a8",
   "lastOpenFiles": [
+    "Grundläggande datorteknik/s299.jpg",
+    "Grundläggande datorteknik/rn_image_picker_lib_temp_8a1f8fba-e05a-41b3-b23d-9e85ed14c2b8.jpg",
+    "Grundläggande datorteknik/Labb 4/grudat-lab4.pdf",
     "Grundläggande datorteknik/Bokuppgifter/9.16.fmem",
     "Grundläggande datorteknik/Bokuppgifter/9.16.lst",
     "Grundläggande datorteknik/Bokuppgifter/9.16.s19",
     "Grundläggande datorteknik/Bokuppgifter/9.16.sflisp~~~",
     "Grundläggande datorteknik/Bokuppgifter/9.16.sflisp",
-    "Grundläggande datorteknik/s299.jpg",
-    "Grundläggande datorteknik/rn_image_picker_lib_temp_8a1f8fba-e05a-41b3-b23d-9e85ed14c2b8.jpg",
-    "Grundläggande datorteknik/Labb 4/grudat-lab4.pdf",
     "Grundläggande datorteknik/s306.jpg",
     "Grundläggande datorteknik/rn_image_picker_lib_temp_ac0501b9-e369-422c-b946-03be0d875e51.jpg",
     "Grundläggande datorteknik/rn_image_picker_lib_temp_577bb143-22c2-403d-a582-564839a0798d.jpg",
@@ -207,7 +206,6 @@
     "Grundläggande datorteknik/Lecture details/lecture-1-3112025.md",
     "Grundläggande datorteknik/Lecture details/lecture-2-4112025.md",
     "Grundläggande datorteknik/Lecture details/lecture-3-6112025.md",
-    "Grundläggande datorteknik/Labb 3/grudat-lab3.xopp~",
     "prompt.md",
     "Grundläggande datorteknik/Lecture details/Drawing 2025-11-28 23.19.13.excalidraw.md",
     "Uppgifter 2.md",
