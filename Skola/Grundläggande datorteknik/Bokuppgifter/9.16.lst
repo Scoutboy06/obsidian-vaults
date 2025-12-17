@@ -1,0 +1,21 @@
+QAflisp - FLISP Absolute crossassembler, Version 1.3
+(c) GMV 1989-2023
+
+
+File: 9.16.lst
+00                      1. DIPSWITCH:
+---- File: "9.16.sflisp"
+00                      2. 	
+00                      3. SEGMENT7:
+00                      4. 	ORG $0
+00                      5. 	
+00                      6. seg_table:
+00                      7. 	
+20                      8. 	ORG $20
+20                      9. start:
+20                     10. DisplaySeg:
+20                     11. 	
+                       12. 
+20 33 20               13. 	JMP start
+FF                     14. 	ORG $FF
+FF                     15. 	
