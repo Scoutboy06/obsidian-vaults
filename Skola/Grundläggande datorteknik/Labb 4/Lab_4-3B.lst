@@ -3,34 +3,34 @@ QAflisp - FLISP Absolute crossassembler, Version 1.3
 
 
 File: Lab_4-3B.lst
-FC                      1. INPORT:			EQU $FC
+FC                      1. INPORT:			EQU $FC 			;
 ---- File: "Lab_4-3B.sflisp"
-FB                      2. OUTPORT:		EQU $FB
+FB                      2. OUTPORT:		EQU $FB 			;
 00                      3. 				ORG $0
-00 00                   4. state_index:	FCB $0
-01 05 06 0A 09          5. state_vector:	FCB $5,$6,$A,$9
+00 00                   4. state_index:	FCB $0 				;
+01 05 06 0A 09          5. state_vector:	FCB $5,$6,$A,$9 	;
 20                      6. 				ORG $20
-20 92 20                7. start:			LDSP #start
-22 A0 01                8. 				LDX state_vector
-24 F1 FC                9. start_1:		LDA INPORT
-26 34 39               10. 				JSR Delay
-28 F1 00               11. 				LDA state_index
-2A F4                  12. 				LDA A,X
-2B E1 FB               13. 				STA OUTPORT
-2D 34 31               14. 				JSR NextState
-2F 33 24               15. 				JMP start_1
-31 F1 00               16. NextState:		LDA state_index
-33 07                  17. 				INCA
-34 99 03               18. 				ANDA #%00000011
-36 E1 00               19. 				STA state_index
-38 43                  20. 				RTS
-39 10                  21. Delay:			PSHA
-3A 13                  22. 				PSHC
-3B                     23. 				;LDA #255
-3B 08                  24. Delay_1:		DECA
-3C 25 FD               25. 				BNE Delay_1
-3E 17                  26. 				PULC
-3F 14                  27. 				PULA
-40 43                  28. 				RTS
+20 92 20                7. start:			LDSP #start 		;
+22 A0 01                8. 				LDX state_vector 	;
+24 F1 FC                9. start_1:		LDA INPORT			; A <- INPORT
+26 34 39               10. 				JSR Delay 			; Delay(A)
+28 F1 00               11. 				LDA state_index		; A <- state_index
+2A F4                  12. 				LDA A,X 			; A <- state_vector[X]
+2B E1 FB               13. 				STA OUTPORT 		; OUTPORT <- A
+2D 34 31               14. 				JSR NextState 		; NextState()
+2F 33 24               15. 				JMP start_1 		;
+31 F1 00               16. NextState:		LDA state_index 	; 
+33 07                  17. 				INCA 				; state_index <- state_index + 1
+34 99 03               18. 				ANDA #%00000011 	; state_index <- state_index AND (00000011)_2
+36 E1 00               19. 				STA state_index 	;
+38 43                  20. 				RTS 				; Retur(state_index)
+39 10                  21. Delay:			PSHA 				;
+3A 13                  22. 				PSHC 				;
+3B                     23. 				;LDA #255 			;
+3B 08                  24. Delay_1:		DECA 				;
+3C 25 FD               25. 				BNE Delay_1 		;
+3E 17                  26. 				PULC 				;
+3F 14                  27. 				PULA 				;
+40 43                  28. 				RTS 				;
 FF                     29. 				ORG $FF
-FF 20                  30. 				FCB $20
+FF 20                  30. 				FCB $20 			;
