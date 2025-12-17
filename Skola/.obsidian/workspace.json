@@ -11,12 +11,12 @@
             "id": "3c96d3cf3b057bd2",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "image",
               "state": {
-                "file": "Grundläggande datorteknik/Labb 4/grudat-lab4.pdf"
+                "file": "Grundläggande datorteknik/Bokuppgifter/9_16.jpg"
               },
-              "icon": "lucide-file-text",
-              "title": "grudat-lab4"
+              "icon": "lucide-image",
+              "title": "9_16"
             }
           }
         ]
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grundläggande datorteknik/Labb 4/grudat-lab4.pdf",
+                "file": "Grundläggande datorteknik/Bokuppgifter/9_16.jpg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for grudat-lab4"
+              "title": "Backlinks for 9_16"
             }
           },
           {
@@ -111,12 +111,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Grundläggande datorteknik/Labb 4/grudat-lab4.pdf",
+                "file": "Grundläggande datorteknik/Bokuppgifter/9_16.jpg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from grudat-lab4"
+              "title": "Outgoing links from 9_16"
             }
           },
           {
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Grundläggande datorteknik/Labb 4/grudat-lab4.pdf",
+                "file": "Grundläggande datorteknik/Bokuppgifter/9_16.jpg",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of grudat-lab4"
+              "title": "Outline of 9_16"
             }
           }
         ]
@@ -173,17 +173,19 @@
   },
   "active": "867ea598776dabc4",
   "lastOpenFiles": [
-    "Grundläggande datorteknik/Labb 4/Lab_4-3A.sflisp",
-    "Grundläggande datorteknik/s306.jpg",
+    "Grundläggande datorteknik/Bokuppgifter/9.18.lst",
+    "Grundläggande datorteknik/Labb 4/grudat-lab4.xopp",
+    "Grundläggande datorteknik/Bokuppgifter/9_20.jpg",
+    "Grundläggande datorteknik/Bokuppgifter/9_18.jpg",
+    "Grundläggande datorteknik/Bokuppgifter/9_16.jpg",
+    "Grundläggande datorteknik/Grundläggande datorteknik.pdf",
     "Grundläggande datorteknik/Labb 4/grudat-lab4.pdf",
+    "Grundläggande datorteknik/Labb 4/Lab_4-3A.sflisp",
     "Grundläggande datorteknik/FlisProcessorHandbok-A4.pdf",
     "Grundläggande datorteknik/Unconfirmed 742682.crdownload",
     "Grundläggande datorteknik/Bokuppgifter/9_20.fmem",
     "Grundläggande datorteknik/Bokuppgifter/9_20.lst",
     "Grundläggande datorteknik/Bokuppgifter/9_20.s19",
-    "Grundläggande datorteknik/Bokuppgifter/9_20.sflisp",
-    "Grundläggande datorteknik/Bokuppgifter/9.20.sflisp",
-    "Grundläggande datorteknik/Labb 4/Lab_4-3B.sflisp~~~",
-    "Grundläggande datorteknik/Labb 4/Lab_4-3B.fmem"
+    "Grundläggande datorteknik/Bokuppgifter/9_20.sflisp"
   ]
 }
