@@ -4,7 +4,14 @@ State_2:	EQU $6
 State_3:	EQU $A
 State_4:	EQU $9
 			ORG $20
-Start:		
-
+Start:		LDA #State_1
+			STA OUTPORT
+			LDA #State_2
+			STA OUTPORT
+			LDA #State_3
+			STA OUTPORT
+			LDA #State_4
+			STA OUTPORT
+			JMP Start
 			ORG $FF
 			FCB Start

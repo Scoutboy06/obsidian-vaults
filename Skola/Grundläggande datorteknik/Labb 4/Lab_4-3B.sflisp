@@ -2,9 +2,9 @@ INPORT:			EQU $FC
 OUTPORT:		EQU $FB
 				ORG $0
 state_index:	FCB $0
-state_vector:	FCB $0,$0,$0,$0
+state_vector:	FCB $5,$6,$A,$9
 				ORG $20
-start:			LDSP #$20
+start:			LDSP #start
 				LDX state_vector
 start_1:		LDA INPORT
 				JSR Delay
