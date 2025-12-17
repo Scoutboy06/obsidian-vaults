@@ -16,8 +16,8 @@ DisplaySegE_1:	LDA DIPSWITCH 		; A <- M(DIPSWITCH)
 				BCS DisplaySegE_2 	; JA
 				LDA #SEG_ERROR		; NEJ
 				JMP DisplaySegE_3
-DisplaySegE_2:	
-DisplaySegE_3:	
+DisplaySegE_2:	LDA A,X
+DisplaySegE_3:	LDA SEGMENT7
 				JMP DisplaySegE_1
 
 Segmentkod:		FCB 
