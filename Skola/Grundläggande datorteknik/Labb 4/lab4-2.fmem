@@ -24,7 +24,7 @@ File: lab4-2.fmem
  #setMemory  31=10
  #setMemory  32=13
  #setMemory  33=F0
- #setMemory  34=FF
+ #setMemory  34=0A
  #setMemory  35=08
  #setMemory  36=25
  #setMemory  37=FD

@@ -11,7 +11,7 @@ main_1:		STA LED
 			JMP main_1
 Delay:		PSHA
 			PSHC
-			LDA #255
+			LDA #10
 Delay_1:	DECA
 			BNE Delay_1
 			PULC

@@ -17,7 +17,7 @@ FB                      1. LED:		EQU $FB
 2F 33 2A               11. 			JMP main_1
 31 10                  12. Delay:		PSHA
 32 13                  13. 			PSHC
-33 F0 FF               14. 			LDA #255
+33 F0 0A               14. 			LDA #10
 35 08                  15. Delay_1:	DECA
 36 25 FD               16. 			BNE Delay_1
 38 17                  17. 			PULC
