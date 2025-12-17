@@ -1,0 +1,27 @@
+QAflisp - FLISP Absolute crossassembler, Version 1.3
+(c) GMV 1989-2023
+
+
+File: 9_20.lst
+FB                      1. LED:		EQU $FB
+---- File: "9_20.sflisp"
+20                      2. 			ORG $20
+20 92 20                3. start:		LDSP #$20
+22 34 26                4. 			JSR main
+24 33 20                5. 			JMP start
+26                      6. main:		
+26                      7. 		
+26                      8. main_1:
+                        9. 
+26 34 2A               10. 			JSR Delay
+28 33 26               11. 			JMP main_1
+2A 10                  12. Delay:		PSHA
+2B 13                  13. 			PSHC
+                       14. 
+2C                     15. Delay_1:
+                       16. 
+                       17. 
+                       18. 
+                       19. 
+FF                     20. 			ORG $FF
+FF 20                  21. 			FCB start
