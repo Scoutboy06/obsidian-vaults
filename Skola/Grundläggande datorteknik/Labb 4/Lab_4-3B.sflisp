@@ -21,9 +21,11 @@ NextState:		LDA state_index 	;
 Delay:			PSHA 				;
 				PSHC 				;
 				;LDA #255 			;
-Delay_1:		DECA 				;
-				BNE Delay_1 		;
-				PULC 				;
+Delay_1:		CMPA #0				; A=0 ?
+				BEQ Delay_2 		; JA
+				DECA				; NEJ
+				BRA Delay_1
+Delay_2:		PULC 				; Retur
 				PULA 				;
 				RTS 				;
 				ORG $FF

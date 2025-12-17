@@ -27,10 +27,12 @@ FB                      2. OUTPORT:		EQU $FB 			;
 39 10                  21. Delay:			PSHA 				;
 3A 13                  22. 				PSHC 				;
 3B                     23. 				;LDA #255 			;
-3B 08                  24. Delay_1:		DECA 				;
-3C 25 FD               25. 				BNE Delay_1 		;
-3E 17                  26. 				PULC 				;
-3F 14                  27. 				PULA 				;
-40 43                  28. 				RTS 				;
-FF                     29. 				ORG $FF
-FF 20                  30. 				FCB $20 			;
+3B 97 00               24. Delay_1:		CMPA #0				; A=0 ?
+3D 24 03               25. 				BEQ Delay_2 		; JA
+3F 08                  26. 				DECA				; NEJ
+40 21 F9               27. 				BRA Delay_1
+42 17                  28. Delay_2:		PULC 				; Retur
+43 14                  29. 				PULA 				;
+44 43                  30. 				RTS 				;
+FF                     31. 				ORG $FF
+FF 20                  32. 				FCB $20 			;
