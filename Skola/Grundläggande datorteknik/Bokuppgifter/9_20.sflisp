@@ -3,7 +3,7 @@ LED:		EQU $FB
 start:		LDSP #$20
 			JSR main
 			JMP start
-main:		
+main:		ANDCC #%11110
 		
 main_1:
 

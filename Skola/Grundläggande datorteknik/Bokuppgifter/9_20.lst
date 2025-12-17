@@ -9,16 +9,16 @@ FB                      1. LED:		EQU $FB
 20 92 20                3. start:		LDSP #$20
 22 34 26                4. 			JSR main
 24 33 20                5. 			JMP start
-26                      6. main:		
-26                      7. 		
-26                      8. main_1:
+26 01 1E                6. main:		ANDCC #%11110
+28                      7. 		
+28                      8. main_1:
                         9. 
-26 34 2A               10. 			JSR Delay
-28 33 26               11. 			JMP main_1
-2A 10                  12. Delay:		PSHA
-2B 13                  13. 			PSHC
+28 34 2C               10. 			JSR Delay
+2A 33 28               11. 			JMP main_1
+2C 10                  12. Delay:		PSHA
+2D 13                  13. 			PSHC
                        14. 
-2C                     15. Delay_1:
+2E                     15. Delay_1:
                        16. 
                        17. 
                        18. 
