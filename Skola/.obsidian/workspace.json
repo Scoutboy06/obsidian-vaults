@@ -18,8 +18,21 @@
               "icon": "lucide-file-text",
               "title": "grudat-lab4"
             }
+          },
+          {
+            "id": "f36748baf409bd16",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Grundläggande datorteknik/s306.jpg"
+              },
+              "icon": "lucide-image",
+              "title": "s306"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -92,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grundläggande datorteknik/Labb 4/grudat-lab4.pdf",
+                "file": "Grundläggande datorteknik/s306.jpg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for grudat-lab4"
+              "title": "Backlinks for s306"
             }
           },
           {
@@ -111,12 +124,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Grundläggande datorteknik/Labb 4/grudat-lab4.pdf",
+                "file": "Grundläggande datorteknik/s306.jpg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from grudat-lab4"
+              "title": "Outgoing links from s306"
             }
           },
           {
@@ -140,13 +153,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Grundläggande datorteknik/Labb 4/grudat-lab4.pdf",
+                "file": "Grundläggande datorteknik/s306.jpg",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of grudat-lab4"
+              "title": "Outline of s306"
             }
           }
         ]
@@ -171,8 +184,10 @@
       "xournalpp:Create new Xournal++ note": false
     }
   },
-  "active": "3c96d3cf3b057bd2",
+  "active": "f36748baf409bd16",
   "lastOpenFiles": [
+    "Grundläggande datorteknik/Bokuppgifter/9.20.sflisp",
+    "Grundläggande datorteknik/Labb 4/grudat-lab4.pdf",
     "Grundläggande datorteknik/Labb 4/Lab_4-3B.sflisp~~~",
     "Grundläggande datorteknik/Labb 4/Lab_4-3B.fmem",
     "Grundläggande datorteknik/Labb 4/Lab_4-3B.lst",
