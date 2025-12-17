@@ -7,6 +7,10 @@ seg_table:		FCB 63,6,91,79,102,109,125,7,127,111
 				ORG $20
 start:			JMP DisplaySeg
 DisplaySeg:		LDX DIPSWITCH 		; X = 0, 1, 2, ..., 9
+				CMPA #10  			; A<10?
+				BCS	DisplaySegE_2  	; JA
+				LDA #SEG_ERROR  	; NEJ
+				BRA DisplaySegE_3
 				LDA seg_table,X 	; seg_table[X] -> A
 				STA SEGMENT7
 				JMP start
