@@ -10,28 +10,18 @@ FB                      2. SEGMENT7:		EQU $FB
 00                      4. 				ORG $0
 00 3F 06 5B 4F 66 6D    5. seg_table:		FCB 63,6,91,79,102,109,125,7,127,111
      7D 07 7F 6F      
-                        6. 
-20                      7. 				ORG $20
-20 33 22                8. start:			JMP DisplaySeg
-22 A0 FC                9. DisplaySeg:		LDX DIPSWITCH 		; X = 0, 1, 2, ..., 9
-24 97 0A               10. 				CMPA #10  			; A<10?
-26 28 16               11. 				BCS	DisplaySegE_2  	; JA
-28 F0 79               12. 				LDA #SEG_ERROR  	; NEJ
-2A 21 13               13. 				BRA DisplaySegE_3
-2C F3 00               14. 				LDA seg_table,X 	; seg_table[X] -> A
-2E E1 FB               15. 				STA SEGMENT7
-30 33 20               16. 				JMP start
-32 A0 FB               17. DisplaySegE:	LDX Segmentkod 		; X <- Segmentkod
-34 F1 FC               18. DisplaySegE_1:	LDA DIPSWITCH 		; A <- M(DIPSWITCH)
-36 97 0A               19. 				CMPA #10 			; A<10 ?
-38 28 04               20. 				BCS DisplaySegE_2 	; JA
-3A F0 79               21. 				LDA #SEG_ERROR		; NEJ
-3C 33 3F               22. 				JMP DisplaySegE_3
-3E F4                  23. DisplaySegE_2:	LDA A,X				; A <- M(A+X)
-3F E1 FB               24. DisplaySegE_3:	STA SEGMENT7		; M(SEGMENT7) <- A
-41 33 34               25. 				JMP DisplaySegE_1
-FB                     26. 				ORG SEGMENT7		; ???
-FB 00                  27. Segmentkod:		FCB $0  			; ???
-FC 00                  28. 				FCB $0  			; ???
-FF                     29. 				ORG $FF
-FF 20                  30. 				FCB $20
+20                      6. 				ORG $20
+20 A0 FB                7. DisplaySegE:	LDX Segmentkod 		; X <- Segmentkod
+22 F1 FC                8. DisplaySegE_1:	LDA DIPSWITCH 		; A <- M(DIPSWITCH)
+24 97 0A                9. 				CMPA #10 			; A<10 ?
+26 28 04               10. 				BLO DisplaySegE_2 	; JA
+28 F0 79               11. 				LDA #SEG_ERROR		; NEJ
+2A 33 2D               12. 				JMP DisplaySegE_3
+2C F4                  13. DisplaySegE_2:	LDA A,X				; A <- M(A+X)
+2D E1 FB               14. DisplaySegE_3:	STA SEGMENT7		; M(SEGMENT7) <- A
+2F 33 22               15. 				JMP DisplaySegE_1
+FB                     16. 				ORG SEGMENT7
+FB 00                  17. Segmentkod:		FCB $0
+FC 00                  18. 				FCB $0
+FF                     19. 				ORG $FF
+FF 20                  20. 				FCB $20
