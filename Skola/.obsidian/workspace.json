@@ -11,10 +11,12 @@
             "id": "3c96d3cf3b057bd2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "Grundläggande datorteknik/Labb 4/grudat-lab4.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "grudat-lab4"
             }
           }
         ]
@@ -74,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 248.5
   },
   "right": {
     "id": "94c10ce84b619ded",
@@ -90,6 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Grundläggande datorteknik/Labb 4/grudat-lab4.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for grudat-lab4"
             }
           },
           {
@@ -108,11 +111,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Grundläggande datorteknik/Labb 4/grudat-lab4.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from grudat-lab4"
             }
           },
           {
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Grundläggande datorteknik/Labb 4/grudat-lab4.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of grudat-lab4"
             }
           }
         ]
@@ -167,5 +172,11 @@
     }
   },
   "active": "3c96d3cf3b057bd2",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Grundläggande datorteknik/Labb 4/Lab_4-3B.fmem",
+    "Grundläggande datorteknik/Labb 4/Lab_4-3B.lst",
+    "Grundläggande datorteknik/Labb 4/Lab_4-3B.s19",
+    "Grundläggande datorteknik/Labb 4/Lab_4-3B.sflisp",
+    "Grundläggande datorteknik/Labb 4/lab4-1.sflisp~~~"
+  ]
 }
