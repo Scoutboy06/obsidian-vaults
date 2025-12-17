@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3b779f4b85bac3f5",
+        "id": "44a79603060bc1a5",
         "type": "tabs",
         "children": [
           {
-            "id": "725f7a721e6228a8",
+            "id": "d6a7db9523e8465c",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "Grundläggande datorteknik/rn_image_picker_lib_temp_8a1f8fba-e05a-41b3-b23d-9e85ed14c2b8.jpg"
-              },
-              "icon": "lucide-image",
-              "title": "rn_image_picker_lib_temp_8a1f8fba-e05a-41b3-b23d-9e85ed14c2b8"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -182,15 +180,16 @@
       "xournalpp:Create new Xournal++ note": false
     }
   },
-  "active": "725f7a721e6228a8",
+  "active": "d6a7db9523e8465c",
   "lastOpenFiles": [
+    "Grundläggande datorteknik/rn_image_picker_lib_temp_8a1f8fba-e05a-41b3-b23d-9e85ed14c2b8.jpg",
+    "Grundläggande datorteknik/Bokuppgifter/9.18.s19",
     "Grundläggande datorteknik/Bokuppgifter/9.18.fmem",
     "Grundläggande datorteknik/Bokuppgifter/9.16.fmem~~~",
     "Grundläggande datorteknik/Bokuppgifter/9.16.s19",
     "Grundläggande datorteknik/Bokuppgifter/9.16.md~",
     "Grundläggande datorteknik/Bokuppgifter/9.16.md",
     "Grundläggande datorteknik/s299.jpg",
-    "Grundläggande datorteknik/rn_image_picker_lib_temp_8a1f8fba-e05a-41b3-b23d-9e85ed14c2b8.jpg",
     "Grundläggande datorteknik/Labb 4/grudat-lab4.pdf",
     "Grundläggande datorteknik/Bokuppgifter/9.16.fmem",
     "Grundläggande datorteknik/Bokuppgifter/9.16.lst",
@@ -199,8 +198,6 @@
     "Grundläggande datorteknik/s306.jpg",
     "Grundläggande datorteknik/rn_image_picker_lib_temp_ac0501b9-e369-422c-b946-03be0d875e51.jpg",
     "Grundläggande datorteknik/rn_image_picker_lib_temp_577bb143-22c2-403d-a582-564839a0798d.jpg",
-    "Grundläggande datorteknik/Labb 4/lab4-4.sflisp~~~",
-    "Grundläggande datorteknik/Bokuppgifter/9.18.sflisp",
     "Grundläggande datorteknik/Uppgifter.md",
     "Grundläggande datorteknik/Lecture details/lecture-6-13112025.md",
     "Grundläggande datorteknik/Lecture details/lecture-5-11112025.md",

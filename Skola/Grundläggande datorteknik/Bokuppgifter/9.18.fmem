@@ -25,7 +25,7 @@ File: 9.18.fmem
  #setMemory  28=33
  #setMemory  29=20
  #setMemory  2A=A0
- #setMemory  2B=FC
+ #setMemory  2B=FB
  #setMemory  2C=F1
  #setMemory  2D=FC
  #setMemory  2E=97
@@ -37,8 +37,10 @@ File: 9.18.fmem
  #setMemory  34=33
  #setMemory  35=37
  #setMemory  36=F4
- #setMemory  37=F1
+ #setMemory  37=E1
  #setMemory  38=FB
  #setMemory  39=33
  #setMemory  3A=2C
+ #setMemory  FB=00
+ #setMemory  FC=00
  #setMemory  FF=20

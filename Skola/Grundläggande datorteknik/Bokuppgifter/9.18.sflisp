@@ -10,17 +10,17 @@ DisplaySeg:		LDX DIPSWITCH 		; X = 0, 1, 2, ..., 9
 				LDA seg_table,X 	; seg_table[X] -> A
 				STA SEGMENT7
 				JMP start
-DisplaySegE:	LDX DIPSWITCH 		; X <- Segmentkod
+DisplaySegE:	LDX Segmentkod 		; X <- Segmentkod
 DisplaySegE_1:	LDA DIPSWITCH 		; A <- M(DIPSWITCH)
 				CMPA #10 			; A<10 ?
 				BCS DisplaySegE_2 	; JA
 				LDA #SEG_ERROR		; NEJ
 				JMP DisplaySegE_3
-DisplaySegE_2:	LDA A,X
-DisplaySegE_3:	LDA SEGMENT7
+DisplaySegE_2:	LDA A,X				; A <- M(A+X)
+DisplaySegE_3:	STA SEGMENT7		; M(SEGMENT7) <- A
 				JMP DisplaySegE_1
-				
-Segmentkod:		FCB 
-				FCB 
+				ORG SEGMENT7		; ???
+Segmentkod:		FCB $0  			; ???
+				FCB $0  			; ???
 				ORG $FF
 				FCB $20
