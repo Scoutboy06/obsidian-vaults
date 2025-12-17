@@ -1,1 +1,7 @@
 OUTPORT:	EQU $FB
+
+			ORG $20
+Start:		NOP
+
+			ORG $FF
+			FCB Start
