@@ -9,15 +9,22 @@ FB                      2. OUTPORT:		EQU $FB
 00                      3. 				ORG $0
 00 00                   4. state_index:	FCB $0
 01 00                   5. state_vector:	FCB $0
-                        6. ; vars:
-                        7. ; - state_index
-                        8. ; - state_vector
-                        9. ; - INPORT
-                       10. ; - OUTPORT
-20                     11. 				ORG $20
-20 00                  12. start:			NOP
-21 00                  13. NextState:		NOP
-22 00                  14. Delay:			NOP
-                       15. 
-FF                     16. 				ORG $FF
-FF 20                  17. 				FCB $20
+20                      6. 				ORG $20
+20 92 20                7. start:			LDSP #$20
+22 A0 01                8. 				LDX state_vector
+24 F1 FC                9. NextState:		LDA INPORT
+26 34 2F               10. 				JSR Delay
+28 F1 00               11. 				LDA state_index
+2A F4                  12. 				LDA A,X
+2B E1 FB               13. 				STA OUTPORT
+2D 33 24               14. 				JMP NextState
+2F 10                  15. Delay:			PSHA
+30 13                  16. 				PSHC
+31                     17. 				;LDA #255
+31 08                  18. Delay_1:		DECA
+32 25 FD               19. 				BNE Delay_1
+34 17                  20. 				PULC
+35 14                  21. 				PULA
+36 43                  22. 				RTS
+FF                     23. 				ORG $FF
+FF 20                  24. 				FCB $20
