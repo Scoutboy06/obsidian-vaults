@@ -5,17 +5,17 @@ start:		LDSP #$20
 			JMP start
 main:		ANDCC #%11110
 			LDA #1
-main_1:		
-
+main_1:		STA LED
+			
 			JSR Delay
 			JMP main_1
 Delay:		PSHA
 			PSHC
-
-Delay_1:
-
-
+			LDA #255
+Delay_1:	DECA
+			BNE Delay_1
 			PULC
 			PULA
+			RTS
 			ORG $FF
 			FCB start

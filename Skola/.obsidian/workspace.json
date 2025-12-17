@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grundläggande datorteknik/FlisProcessorHandbok-A4.pdf",
+                "file": "Grundläggande datorteknik/s306.jpg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for FlisProcessorHandbok-A4"
+              "title": "Backlinks for s306"
             }
           },
           {
@@ -124,12 +124,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Grundläggande datorteknik/FlisProcessorHandbok-A4.pdf",
+                "file": "Grundläggande datorteknik/s306.jpg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from FlisProcessorHandbok-A4"
+              "title": "Outgoing links from s306"
             }
           },
           {
@@ -153,13 +153,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Grundläggande datorteknik/FlisProcessorHandbok-A4.pdf",
+                "file": "Grundläggande datorteknik/s306.jpg",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of FlisProcessorHandbok-A4"
+              "title": "Outline of s306"
             }
           }
         ]
@@ -184,8 +184,9 @@
       "xournalpp:Create new Xournal++ note": false
     }
   },
-  "active": "867ea598776dabc4",
+  "active": "f36748baf409bd16",
   "lastOpenFiles": [
+    "Grundläggande datorteknik/Labb 4/grudat-lab4.pdf",
     "Grundläggande datorteknik/s306.jpg",
     "Grundläggande datorteknik/FlisProcessorHandbok-A4.pdf",
     "Grundläggande datorteknik/Unconfirmed 742682.crdownload",
@@ -194,7 +195,6 @@
     "Grundläggande datorteknik/Bokuppgifter/9_20.s19",
     "Grundläggande datorteknik/Bokuppgifter/9_20.sflisp",
     "Grundläggande datorteknik/Bokuppgifter/9.20.sflisp",
-    "Grundläggande datorteknik/Labb 4/grudat-lab4.pdf",
     "Grundläggande datorteknik/Labb 4/Lab_4-3B.sflisp~~~",
     "Grundläggande datorteknik/Labb 4/Lab_4-3B.fmem"
   ]

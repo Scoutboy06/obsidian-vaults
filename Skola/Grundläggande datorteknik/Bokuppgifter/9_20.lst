@@ -10,18 +10,18 @@ FB                      1. LED:		EQU $FB
 22 34 26                4. 			JSR main
 24 33 20                5. 			JMP start
 26 01 1E                6. main:		ANDCC #%11110
-28                      7. 		
-28                      8. main_1:
-                        9. 
-28 34 2C               10. 			JSR Delay
-2A 33 28               11. 			JMP main_1
-2C 10                  12. Delay:		PSHA
-2D 13                  13. 			PSHC
-                       14. 
-2E                     15. Delay_1:
-                       16. 
-                       17. 
-                       18. 
-                       19. 
+28 F0 01                7. 			LDA #1
+2A E1 FB                8. main_1:		STA LED
+2C                      9. 			
+2C 34 30               10. 			JSR Delay
+2E 33 2A               11. 			JMP main_1
+30 10                  12. Delay:		PSHA
+31 13                  13. 			PSHC
+32 F0 FF               14. 			LDA #255
+34 08                  15. Delay_1:	DECA
+35 25 FD               16. 			BNE Delay_1
+37 17                  17. 			PULC
+38 14                  18. 			PULA
+39 43                  19. 			RTS
 FF                     20. 			ORG $FF
 FF 20                  21. 			FCB start
