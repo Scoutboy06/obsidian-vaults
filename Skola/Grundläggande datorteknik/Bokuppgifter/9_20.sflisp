@@ -6,7 +6,7 @@ start:		LDSP #$20
 main:		ANDCC #%11110
 			LDA #1
 main_1:		STA LED
-			
+			ROLA
 			JSR Delay
 			JMP main_1
 Delay:		PSHA
