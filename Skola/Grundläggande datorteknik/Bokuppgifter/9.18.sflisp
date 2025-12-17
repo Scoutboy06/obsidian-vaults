@@ -19,7 +19,7 @@ DisplaySegE_1:	LDA DIPSWITCH 		; A <- M(DIPSWITCH)
 DisplaySegE_2:	LDA A,X
 DisplaySegE_3:	LDA SEGMENT7
 				JMP DisplaySegE_1
-
+				
 Segmentkod:		FCB 
 				FCB 
 				ORG $FF
