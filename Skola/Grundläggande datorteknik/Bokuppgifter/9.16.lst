@@ -9,11 +9,11 @@ FB                      2. SEGMENT7:		EQU $FB
 00                      3. 				ORG $0
 00 3F 06 5B 4F 66 6D    4. seg_table:		FCB 63,6,91,79,102,109,125,7,127,111
      7D 07 7F 6F      
-0A                      5. 				; ???
+                        5. 
 20                      6. 				ORG $20
 20 33 22                7. start:			JMP DisplaySeg
-22 A0 FC                8. DisplaySeg:		LDX DIPSWITCH ; X = 0, 1, 2, ..., 9
-24 F3 00                9. 				LDA seg_table,X ; seg_table[X] -> A
+22 A0 FC                8. DisplaySeg:		LDX DIPSWITCH ; X <- 0, 1, 2, ..., 9
+24 F3 00                9. 				LDA seg_table,X ; A <- seg_table[X]
 26 E1 FB               10. 				STA SEGMENT7
 28 33 20               11. 				JMP start
 FF                     12. 				ORG $FF
