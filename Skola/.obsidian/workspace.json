@@ -76,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5,
-    "collapsed": true
+    "width": 248.5
   },
   "right": {
     "id": "94c10ce84b619ded",
@@ -172,8 +171,9 @@
       "xournalpp:Create new Xournal++ note": false
     }
   },
-  "active": "3c96d3cf3b057bd2",
+  "active": "867ea598776dabc4",
   "lastOpenFiles": [
+    "Grundläggande datorteknik/Labb 4/Lab_4-3A.sflisp",
     "Grundläggande datorteknik/s306.jpg",
     "Grundläggande datorteknik/Labb 4/grudat-lab4.pdf",
     "Grundläggande datorteknik/FlisProcessorHandbok-A4.pdf",
