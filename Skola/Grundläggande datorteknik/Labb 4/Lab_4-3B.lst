@@ -3,3 +3,21 @@ QAflisp - FLISP Absolute crossassembler, Version 1.3
 
 
 File: Lab_4-3B.lst
+FC                      1. INPORT:			EQU $FC
+---- File: "Lab_4-3B.sflisp"
+FB                      2. OUTPORT:		EQU $FB
+00                      3. 				ORG $0
+00 00                   4. state_index:	FCB $0
+01 00                   5. state_vector:	FCB $0
+                        6. ; vars:
+                        7. ; - state_index
+                        8. ; - state_vector
+                        9. ; - INPORT
+                       10. ; - OUTPORT
+20                     11. 				ORG $20
+20 00                  12. start:			NOP
+21 00                  13. NextState:		NOP
+22 00                  14. Delay:			NOP
+                       15. 
+FF                     16. 				ORG $FF
+FF 20                  17. 				FCB $20

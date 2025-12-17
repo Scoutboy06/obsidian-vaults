@@ -4,3 +4,9 @@ File: Lab_4-3B.fmem
 
  # ClearAllMemory
  # ClearAllRegisters
+ #setMemory  00=00
+ #setMemory  01=00
+ #setMemory  20=00
+ #setMemory  21=00
+ #setMemory  22=00
+ #setMemory  FF=20
