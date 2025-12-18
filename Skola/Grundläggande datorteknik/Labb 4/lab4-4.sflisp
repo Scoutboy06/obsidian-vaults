@@ -18,11 +18,11 @@ Main_1:
 	LSLA ; A <- 2A
 	PSHA
 	LDX #MorseCode	; X <- Startadress för tabell med Morsekoder
-	LDA A,X  		; A <- M(X+A)
-	STA Count		; Count <- A
+	LDA A,X  		; Hämta antalet pulser för bokstaven
+	STA Count		; Count är en variabel (reserverad byte i minnet)
 	PULA
-	INCA			; A <- A+1
-	STA A,X  		; A <- M(X+A)
+	INCA			; Beräkna offset för pulsmönstret
+	STA A,X  		; Hämta pulsmänstret (Morsekoden) för bokstaven
 	; Repetera så länge som Count != 0
 		; Anropa blinkrutinen
 		; A <- A << 1
