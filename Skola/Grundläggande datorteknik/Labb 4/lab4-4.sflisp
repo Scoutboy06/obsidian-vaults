@@ -9,10 +9,9 @@ DelayC2	EQU	$2		;Ändra dem eventuellt i labbet så att fördröjnigen blir riml
 	ORG	$20
 
 Main:
-	LDA #%00000000
-	JSR BlinkLight
-	;JSR ReadAscii
-	BRA	Main
+	CLR Utport
+	JSR ReadAscii
+	JMP	Main
 
 
 ReadAscii:

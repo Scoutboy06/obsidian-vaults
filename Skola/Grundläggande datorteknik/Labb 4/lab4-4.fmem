@@ -5,12 +5,12 @@ File: lab4-4.fmem
  # ClearAllMemory
  # ClearAllRegisters
  #setMemory  FF=20
- #setMemory  20=F0
- #setMemory  21=00
+ #setMemory  20=35
+ #setMemory  21=FB
  #setMemory  22=34
- #setMemory  23=32
- #setMemory  24=21
- #setMemory  25=FA
+ #setMemory  23=26
+ #setMemory  24=33
+ #setMemory  25=20
  #setMemory  26=13
  #setMemory  27=F1
  #setMemory  28=FC
