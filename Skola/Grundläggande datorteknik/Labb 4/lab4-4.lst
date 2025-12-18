@@ -24,94 +24,95 @@ FF 20                   7. 	FCB	$20
 26 13                  18. 	PSHC
 27                     19. ReadAscii_1:
 27 F1 FC               20. 	LDA Inport		; A <- Inport
-29 0C                  21. 	LSRA			; CC(C) <- A bit0
-2A 28 FB               22. 	BCS ReadAscii_1	; CC(C) = 1 ?
-2C 0C                  23. 	LSRA			; CC(C) <- A bit0
-2D 29 F8               24. 	BCC ReadAscii_1 ; CC(C) = 0 ?
-2F 0C                  25. 	LSRA			; A <- A >> 1
-30 17                  26. 	PULC
-31 43                  27. 	RTS				; Retur(A)
-                       28. 
+29 98 01               21. 	BITA #%00000001	; CC(Z) = ! A bit0
+2B 25 FA               22. 	BNE ReadAscii_1	; CC(Z) = 1 ?
+2D                     23. ReadAscii_2:
+2D 98 01               24. 	BITA #%00000001	; CC(Z) <- A bit0
+2F 24 FC               25. 	BEQ ReadAscii_2 ; CC(Z) = 0 ?
+31 0C                  26. 	LSRA			; A <- A >> 1
+32 17                  27. 	PULC
+33 43                  28. 	RTS				; Retur(A)
                        29. 
-32                     30. 	
-32                     31. BlinkLight:
-32 10                  32. 	PSHA
-33 35 FB               33. 	CLR Utport			; A <- 0
-35 3A FB               34. 	COM Utport			; A <- $FF
-37 98 80               35. 	BITA #%10000000 	; Om bit7 i A = 1
-39 22 06               36. 	BMI	BlinkLight_s4	; JA
-3B 21 00               37. 	BRA BlinkLight_s1	; NEJ
-3D                     38. BlinkLight_s1:
-3D 34 51               39. 	JSR Delay1s
-3F 33 4B               40. 	JMP BlinkLight_end
-41                     41. BlinkLight_s4:
-41 34 51               42. 	JSR Delay1s
-43 34 51               43. 	JSR Delay1s
-45 34 51               44. 	JSR Delay1s
-47 34 51               45. 	JSR Delay1s
-49 33 4B               46. 	JMP BlinkLight_end
-4B                     47. BlinkLight_end:
-4B 35 FB               48. 	CLR Utport
-4D 34 51               49. 	JSR Delay1s
-4F 14                  50. 	PULA
-50 43                  51. 	RTS
-51                     52. 	
-51                     53. 	
-                       54. ; Orsakar en fördröjning på ungefär 1s i simulatorn (vid snabb exekveringshastighet)
-                       55. ; Ändrar inga register
-51                     56. Delay1s:
-51 10                  57. 	PSHA
-52 11                  58. 	PSHX
-53 13                  59. 	PSHC
-54 90 02               60. 	LDX	#DelayC2
-56                     61. Delay1s_loop2:
-56 F0 05               62. 	LDA	#DelayC1
-58                     63. Delay1s_loop:
-58 08                  64. 	DECA
-59 25 FD               65. 	BNE	Delay1s_loop
-5B CC FF               66. 	LEAX	-1,X
-5D 9C 00               67. 	CMPX	#0
-5F 25 F5               68. 	BNE	Delay1s_loop2
-61 17                  69. 	PULC
-62 15                  70. 	PULX
-63 14                  71. 	PULA
-64 43                  72. 	RTS
-                       73. 
-                       74. ; Data - Variabler
-65                     75. Count:
-65 00                  76. 	RMB	1
-                       77. 
-                       78. ; Data - Konstanter
-66                     79. MorseCode:
-66 02 40               80. 	FCB	2,%01000000 ;'A'
-68 04 80               81. 	FCB	4,%10000000 ;'B'
-6A 04 A0               82. 	FCB	4,%10100000 ;'C'
-6C 03 80               83. 	FCB	3,%10000000 ;'D'
-6E 01 00               84. 	FCB	1,%00000000 ;'E'
-70 04 20               85. 	FCB	4,%00100000 ;'F'
-72 03 C0               86. 	FCB	3,%11000000 ;'G'
-74 04 00               87. 	FCB	4,%00000000 ;'H'
-76 02 00               88. 	FCB	2,%00000000 ;'I'
-78 04 70               89. 	FCB	4,%01110000 ;'J'
-7A 03 A0               90. 	FCB	3,%10100000 ;'K'
-7C 04 40               91. 	FCB	4,%01000000 ;'L'
-7E 02 C0               92. 	FCB	2,%11000000 ;'M'
-80 02 80               93. 	FCB	2,%10000000 ;'N'
-82 03 E0               94. 	FCB	3,%11100000 ;'O'
-84 04 60               95. 	FCB	4,%01100000 ;'P'
-86 04 D0               96. 	FCB	4,%11010000 ;'Q'
-88 03 40               97. 	FCB	3,%01000000 ;'R'
-8A 03 00               98. 	FCB	3,%00000000 ;'S'
-8C 01 80               99. 	FCB	1,%10000000 ;'T'
-8E 03 20              100. 	FCB	3,%00100000 ;'U'
-90 04 10              101. 	FCB	4,%00010000 ;'V'
-92 03 60              102. 	FCB	3,%01100000 ;'W'
-94 04 90              103. 	FCB	4,%10010000 ;'X'
-96 04 B0              104. 	FCB	4,%10110000 ;'Y'
-98 04 C0              105. 	FCB	4,%11000000 ;'Z'
-9A                    106. 	
-9A                    107. 	
-9A                    108. 	
-9A                    109. 	
-9A                    110. 	
-9A                    111. 	
+                       30. 
+34                     31. 	
+34                     32. BlinkLight:
+34 10                  33. 	PSHA
+35 35 FB               34. 	CLR Utport			; A <- 0
+37 3A FB               35. 	COM Utport			; A <- $FF
+39 98 80               36. 	BITA #%10000000 	; Om bit7 i A = 1
+3B 22 06               37. 	BMI	BlinkLight_s4	; JA
+3D 21 00               38. 	BRA BlinkLight_s1	; NEJ
+3F                     39. BlinkLight_s1:
+3F 34 53               40. 	JSR Delay1s
+41 33 4D               41. 	JMP BlinkLight_end
+43                     42. BlinkLight_s4:
+43 34 53               43. 	JSR Delay1s
+45 34 53               44. 	JSR Delay1s
+47 34 53               45. 	JSR Delay1s
+49 34 53               46. 	JSR Delay1s
+4B 33 4D               47. 	JMP BlinkLight_end
+4D                     48. BlinkLight_end:
+4D 35 FB               49. 	CLR Utport
+4F 34 53               50. 	JSR Delay1s
+51 14                  51. 	PULA
+52 43                  52. 	RTS
+53                     53. 	
+53                     54. 	
+                       55. ; Orsakar en fördröjning på ungefär 1s i simulatorn (vid snabb exekveringshastighet)
+                       56. ; Ändrar inga register
+53                     57. Delay1s:
+53 10                  58. 	PSHA
+54 11                  59. 	PSHX
+55 13                  60. 	PSHC
+56 90 02               61. 	LDX	#DelayC2
+58                     62. Delay1s_loop2:
+58 F0 05               63. 	LDA	#DelayC1
+5A                     64. Delay1s_loop:
+5A 08                  65. 	DECA
+5B 25 FD               66. 	BNE	Delay1s_loop
+5D CC FF               67. 	LEAX	-1,X
+5F 9C 00               68. 	CMPX	#0
+61 25 F5               69. 	BNE	Delay1s_loop2
+63 17                  70. 	PULC
+64 15                  71. 	PULX
+65 14                  72. 	PULA
+66 43                  73. 	RTS
+                       74. 
+                       75. ; Data - Variabler
+67                     76. Count:
+67 00                  77. 	RMB	1
+                       78. 
+                       79. ; Data - Konstanter
+68                     80. MorseCode:
+68 02 40               81. 	FCB	2,%01000000 ;'A'
+6A 04 80               82. 	FCB	4,%10000000 ;'B'
+6C 04 A0               83. 	FCB	4,%10100000 ;'C'
+6E 03 80               84. 	FCB	3,%10000000 ;'D'
+70 01 00               85. 	FCB	1,%00000000 ;'E'
+72 04 20               86. 	FCB	4,%00100000 ;'F'
+74 03 C0               87. 	FCB	3,%11000000 ;'G'
+76 04 00               88. 	FCB	4,%00000000 ;'H'
+78 02 00               89. 	FCB	2,%00000000 ;'I'
+7A 04 70               90. 	FCB	4,%01110000 ;'J'
+7C 03 A0               91. 	FCB	3,%10100000 ;'K'
+7E 04 40               92. 	FCB	4,%01000000 ;'L'
+80 02 C0               93. 	FCB	2,%11000000 ;'M'
+82 02 80               94. 	FCB	2,%10000000 ;'N'
+84 03 E0               95. 	FCB	3,%11100000 ;'O'
+86 04 60               96. 	FCB	4,%01100000 ;'P'
+88 04 D0               97. 	FCB	4,%11010000 ;'Q'
+8A 03 40               98. 	FCB	3,%01000000 ;'R'
+8C 03 00               99. 	FCB	3,%00000000 ;'S'
+8E 01 80              100. 	FCB	1,%10000000 ;'T'
+90 03 20              101. 	FCB	3,%00100000 ;'U'
+92 04 10              102. 	FCB	4,%00010000 ;'V'
+94 03 60              103. 	FCB	3,%01100000 ;'W'
+96 04 90              104. 	FCB	4,%10010000 ;'X'
+98 04 B0              105. 	FCB	4,%10110000 ;'Y'
+9A 04 C0              106. 	FCB	4,%11000000 ;'Z'
+9C                    107. 	
+9C                    108. 	
+9C                    109. 	
+9C                    110. 	
+9C                    111. 	
+9C                    112. 	

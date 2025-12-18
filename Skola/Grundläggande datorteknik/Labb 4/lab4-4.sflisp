@@ -11,6 +11,7 @@ DelayC2	EQU	$2		;Ändra dem eventuellt i labbet så att fördröjnigen blir riml
 Main:
 	CLR Utport
 	JSR ReadAscii
+	SUBA #$41
 	JMP	Main
 
 
@@ -18,10 +19,11 @@ ReadAscii:
 	PSHC
 ReadAscii_1:
 	LDA Inport		; A <- Inport
-	LSRA			; CC(C) <- A bit0
-	BCS ReadAscii_1	; CC(C) = 1 ?
-	LSRA			; CC(C) <- A bit0
-	BCC ReadAscii_1 ; CC(C) = 0 ?
+	BITA #%00000001	; CC(Z) = ! A bit0
+	BNE ReadAscii_1	; CC(Z) = 1 ?
+ReadAscii_2:
+	BITA #%00000001	; CC(Z) <- A bit0
+	BEQ ReadAscii_2 ; CC(Z) = 0 ?
 	LSRA			; A <- A >> 1
 	PULC
 	RTS				; Retur(A)
