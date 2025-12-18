@@ -29,8 +29,21 @@ ReadAscii_1:
 	
 BlinkLight:
 	PSHA
-	LDA #$FF
-	STA Utport
+	;LDA #$FF
+	;STA Utport  		; TODO: gör utan att A ändras
+	BITA #%10000000 	; Om bit7 i A = 1
+	BMI	BlinkLight_s4	; JA
+	BRA BlinkLight_s1	; NEJ
+BlinkLight_s1:
+	JSR Delay1s
+	JMP BlinkLight_end
+BlinkLight_s4:
+	JSR Delay1s
+	JSR Delay1s
+	JSR Delay1s
+	JSR Delay1s
+	JMP BlinkLight_end
+BlinkLight_end:
 	PULA
 	RTS
 	
