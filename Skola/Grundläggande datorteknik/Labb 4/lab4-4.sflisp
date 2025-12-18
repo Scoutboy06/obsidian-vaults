@@ -15,8 +15,12 @@ Main:
 
 ReadAscii:
 	PSHC
+ReadAscii_1:
 	LDA Inport		; A <- Inport
-	ORA #%00000001
+	LSRA			; CC(C) <- A bit0
+	BCS ReadAscii_1	; CC(C) = 1 ?
+	LSRA			; CC(C) <- A bit0
+	BCC ReadAscii_1 ; CC(C) = 0 ?
 	LSRA			; A <- A >> 1
 	PULC
 	RTS				; Retur(A)
