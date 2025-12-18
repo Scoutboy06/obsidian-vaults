@@ -9,7 +9,9 @@ DelayC2	EQU	$2		;Ändra dem eventuellt i labbet så att fördröjnigen blir riml
 	ORG	$20
 
 Main:
-	JSR ReadAscii
+	LDA #%00000000
+	JSR BlinkLight
+	;JSR ReadAscii
 	BRA	Main
 
 
@@ -29,8 +31,8 @@ ReadAscii_1:
 	
 BlinkLight:
 	PSHA
-	;LDA #$FF
-	;STA Utport  		; TODO: gör utan att A ändras
+	CLR Utport			; A <- 0
+	COM Utport			; A <- $FF
 	BITA #%10000000 	; Om bit7 i A = 1
 	BMI	BlinkLight_s4	; JA
 	BRA BlinkLight_s1	; NEJ
@@ -44,6 +46,8 @@ BlinkLight_s4:
 	JSR Delay1s
 	JMP BlinkLight_end
 BlinkLight_end:
+	CLR Utport
+	JSR Delay1s
 	PULA
 	RTS
 	
