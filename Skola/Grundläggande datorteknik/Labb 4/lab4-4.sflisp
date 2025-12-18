@@ -28,6 +28,10 @@ ReadAscii_1:
 
 	
 BlinkLight:
+	PSHA
+	LDA #$FF
+	STA Utport
+	PULA
 	RTS
 	
 	

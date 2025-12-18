@@ -20,71 +20,82 @@ FF 20                   7. 	FCB	$20
                        14. 
                        15. 
 24                     16. ReadAscii:
-24 F1 FC               17. 	LDA Inport		; A <- Inport
-26 0C                  18. 	LSRA			; A <- A >> 1
-27 43                  19. 	RTS				; Retur(A)
-                       20. 
-                       21. 
-28                     22. 	
-28                     23. BlinkLight:
-28 43                  24. 	RTS
-29                     25. 	
-29                     26. 	
-                       27. ; Orsakar en fördröjning på ungefär 1s i simulatorn (vid snabb exekveringshastighet)
-                       28. ; Ändrar inga register
-29                     29. Delay1s:
-29 10                  30. 	PSHA
-2A 11                  31. 	PSHX
-2B 13                  32. 	PSHC
-2C 90 02               33. 	LDX	#DelayC2
-2E                     34. Delay1s_loop2:
-2E F0 05               35. 	LDA	#DelayC1
-30                     36. Delay1s_loop:
-30 08                  37. 	DECA
-31 25 FD               38. 	BNE	Delay1s_loop
-33 CC FF               39. 	LEAX	-1,X
-35 9C 00               40. 	CMPX	#0
-37 25 F5               41. 	BNE	Delay1s_loop2
-39 17                  42. 	PULC
-3A 15                  43. 	PULX
-3B 14                  44. 	PULA
-3C 43                  45. 	RTS
-                       46. 
-                       47. ; Data - Variabler
-3D                     48. Count:
-3D 00                  49. 	RMB	1
-                       50. 
-                       51. ; Data - Konstanter
-3E                     52. MorseCode:
-3E 02 40               53. 	FCB	2,%01000000 ;'A'
-40 04 80               54. 	FCB	4,%10000000 ;'B'
-42 04 A0               55. 	FCB	4,%10100000 ;'C'
-44 03 80               56. 	FCB	3,%10000000 ;'D'
-46 01 00               57. 	FCB	1,%00000000 ;'E'
-48 04 20               58. 	FCB	4,%00100000 ;'F'
-4A 03 C0               59. 	FCB	3,%11000000 ;'G'
-4C 04 00               60. 	FCB	4,%00000000 ;'H'
-4E 02 00               61. 	FCB	2,%00000000 ;'I'
-50 04 70               62. 	FCB	4,%01110000 ;'J'
-52 03 A0               63. 	FCB	3,%10100000 ;'K'
-54 04 40               64. 	FCB	4,%01000000 ;'L'
-56 02 C0               65. 	FCB	2,%11000000 ;'M'
-58 02 80               66. 	FCB	2,%10000000 ;'N'
-5A 03 E0               67. 	FCB	3,%11100000 ;'O'
-5C 04 60               68. 	FCB	4,%01100000 ;'P'
-5E 04 D0               69. 	FCB	4,%11010000 ;'Q'
-60 03 40               70. 	FCB	3,%01000000 ;'R'
-62 03 00               71. 	FCB	3,%00000000 ;'S'
-64 01 80               72. 	FCB	1,%10000000 ;'T'
-66 03 20               73. 	FCB	3,%00100000 ;'U'
-68 04 10               74. 	FCB	4,%00010000 ;'V'
-6A 03 60               75. 	FCB	3,%01100000 ;'W'
-6C 04 90               76. 	FCB	4,%10010000 ;'X'
-6E 04 B0               77. 	FCB	4,%10110000 ;'Y'
-70 04 C0               78. 	FCB	4,%11000000 ;'Z'
-72                     79. 	
-72                     80. 	
-72                     81. 	
-72                     82. 	
-72                     83. 	
-72                     84. 	
+24 13                  17. 	PSHC
+25                     18. ReadAscii_1:
+25 F1 FC               19. 	LDA Inport		; A <- Inport
+27 0C                  20. 	LSRA			; CC(C) <- A bit0
+28 28 FB               21. 	BCS ReadAscii_1	; CC(C) = 1 ?
+2A 0C                  22. 	LSRA			; CC(C) <- A bit0
+2B 29 F8               23. 	BCC ReadAscii_1 ; CC(C) = 0 ?
+2D 0C                  24. 	LSRA			; A <- A >> 1
+2E 17                  25. 	PULC
+2F 43                  26. 	RTS				; Retur(A)
+                       27. 
+                       28. 
+30                     29. 	
+30                     30. BlinkLight:
+30 10                  31. 	PSHA
+31 F0 FF               32. 	LDA #$FF
+33                     33. 	
+33 14                  34. 	PULA
+34 43                  35. 	RTS
+35                     36. 	
+35                     37. 	
+                       38. ; Orsakar en fördröjning på ungefär 1s i simulatorn (vid snabb exekveringshastighet)
+                       39. ; Ändrar inga register
+35                     40. Delay1s:
+35 10                  41. 	PSHA
+36 11                  42. 	PSHX
+37 13                  43. 	PSHC
+38 90 02               44. 	LDX	#DelayC2
+3A                     45. Delay1s_loop2:
+3A F0 05               46. 	LDA	#DelayC1
+3C                     47. Delay1s_loop:
+3C 08                  48. 	DECA
+3D 25 FD               49. 	BNE	Delay1s_loop
+3F CC FF               50. 	LEAX	-1,X
+41 9C 00               51. 	CMPX	#0
+43 25 F5               52. 	BNE	Delay1s_loop2
+45 17                  53. 	PULC
+46 15                  54. 	PULX
+47 14                  55. 	PULA
+48 43                  56. 	RTS
+                       57. 
+                       58. ; Data - Variabler
+49                     59. Count:
+49 00                  60. 	RMB	1
+                       61. 
+                       62. ; Data - Konstanter
+4A                     63. MorseCode:
+4A 02 40               64. 	FCB	2,%01000000 ;'A'
+4C 04 80               65. 	FCB	4,%10000000 ;'B'
+4E 04 A0               66. 	FCB	4,%10100000 ;'C'
+50 03 80               67. 	FCB	3,%10000000 ;'D'
+52 01 00               68. 	FCB	1,%00000000 ;'E'
+54 04 20               69. 	FCB	4,%00100000 ;'F'
+56 03 C0               70. 	FCB	3,%11000000 ;'G'
+58 04 00               71. 	FCB	4,%00000000 ;'H'
+5A 02 00               72. 	FCB	2,%00000000 ;'I'
+5C 04 70               73. 	FCB	4,%01110000 ;'J'
+5E 03 A0               74. 	FCB	3,%10100000 ;'K'
+60 04 40               75. 	FCB	4,%01000000 ;'L'
+62 02 C0               76. 	FCB	2,%11000000 ;'M'
+64 02 80               77. 	FCB	2,%10000000 ;'N'
+66 03 E0               78. 	FCB	3,%11100000 ;'O'
+68 04 60               79. 	FCB	4,%01100000 ;'P'
+6A 04 D0               80. 	FCB	4,%11010000 ;'Q'
+6C 03 40               81. 	FCB	3,%01000000 ;'R'
+6E 03 00               82. 	FCB	3,%00000000 ;'S'
+70 01 80               83. 	FCB	1,%10000000 ;'T'
+72 03 20               84. 	FCB	3,%00100000 ;'U'
+74 04 10               85. 	FCB	4,%00010000 ;'V'
+76 03 60               86. 	FCB	3,%01100000 ;'W'
+78 04 90               87. 	FCB	4,%10010000 ;'X'
+7A 04 B0               88. 	FCB	4,%10110000 ;'Y'
+7C 04 C0               89. 	FCB	4,%11000000 ;'Z'
+7E                     90. 	
+7E                     91. 	
+7E                     92. 	
+7E                     93. 	
+7E                     94. 	
+7E                     95. 	
