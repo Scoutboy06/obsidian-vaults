@@ -13,8 +13,16 @@ Main:
 Main_1:
 	JSR ReadAscii
 	SUBA #$41		; Räkna ut ordningstalet för bokstaven som lästes in. (Ordningstalet för 'A' = 0)
+	BCC Main_2		; input < 'A'?
+	CMPA #25		; input > 'Z'?
+	
 	; Undersök att A är på ett giltigt intervall. Om inte, skapa en loop där
 	; lampan tänds (Något är ju fel, så programmet skall fastna här)
+Main_err:
+	CLR Utport
+	COM Utport
+	JMP Main_1
+Main_2:
 	LSLA ; A <- 2A
 	PSHA
 	LDX #MorseCode	; X <- Startadress för tabell med Morsekoder
