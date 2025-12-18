@@ -1,22 +1,20 @@
 {
   "main": {
-    "id": "2466bc6b4064bfc6",
+    "id": "9a706afcc6798357",
     "type": "split",
     "children": [
       {
-        "id": "25e9ff528012f2ed",
+        "id": "e02ee2f1674b246d",
         "type": "tabs",
         "children": [
           {
-            "id": "3c96d3cf3b057bd2",
+            "id": "3a66aaf1326e0e4e",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "Grundläggande datorteknik/Bokuppgifter/9_16.jpg"
-              },
-              "icon": "lucide-image",
-              "title": "9_16"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -25,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "e6c0158ce0b3c6a7",
+    "id": "b20614d55e9cfeb8",
     "type": "split",
     "children": [
       {
-        "id": "4eda4815c2dfa5e7",
+        "id": "1e8ea5b533c52e24",
         "type": "tabs",
         "children": [
           {
-            "id": "867ea598776dabc4",
+            "id": "60ce05e4eaeab862",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -46,7 +44,7 @@
             }
           },
           {
-            "id": "2e5f5ad0af5c87b8",
+            "id": "f8f4e478504fda7a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -63,7 +61,7 @@
             }
           },
           {
-            "id": "0ae22561a2ed3db4",
+            "id": "f19285ce607eef38",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -76,23 +74,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5
+    "width": 280.5
   },
   "right": {
-    "id": "94c10ce84b619ded",
+    "id": "81d5e941cabe3e48",
     "type": "split",
     "children": [
       {
-        "id": "b087b838a8d550c6",
+        "id": "62d305561972d897",
         "type": "tabs",
         "children": [
           {
-            "id": "5aa5339171f0314c",
+            "id": "b7b117ff0c5dc4c5",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grundläggande datorteknik/Bokuppgifter/9_16.jpg",
+                "file": "Grundläggande datorteknik/Uppgifter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,25 +100,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 9_16"
+              "title": "Backlinks for Uppgifter"
             }
           },
           {
-            "id": "1e8db98339f458db",
+            "id": "b967799c5589a670",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Grundläggande datorteknik/Bokuppgifter/9_16.jpg",
+                "file": "Programmering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 9_16"
+              "title": "Outgoing links from Programmering"
             }
           },
           {
-            "id": "66bcd5e7e1f47aec",
+            "id": "13d032996373ed21",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -135,21 +133,32 @@
             }
           },
           {
-            "id": "e2e7c99c9da0b402",
+            "id": "7fb035cd6598ecde",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Grundläggande datorteknik/Bokuppgifter/9_16.jpg",
+                "file": "Programmering.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 9_16"
+              "title": "Outline of Programmering"
+            }
+          },
+          {
+            "id": "ecbe504b019c56d7",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -171,21 +180,53 @@
       "xournalpp:Create new Xournal++ note": false
     }
   },
-  "active": "867ea598776dabc4",
+  "active": "3a66aaf1326e0e4e",
   "lastOpenFiles": [
-    "Grundläggande datorteknik/Labb 4/lab4-4.s19",
-    "Grundläggande datorteknik/Labb 4/grudat-lab4.xopp~",
-    "Grundläggande datorteknik/Labb 4/Lab_4-3A.fmem",
-    "Grundläggande datorteknik/Labb 4/Lab_4-3A.lst",
-    "Grundläggande datorteknik/Labb 4/Lab_4-3A.s19",
-    "Grundläggande datorteknik/Labb 4/lab4-2.fmem",
-    "Grundläggande datorteknik/Labb 4/lab4-2.lst",
-    "Grundläggande datorteknik/Labb 4/lab4-2.s19",
+    "Grundläggande datorteknik/Labb 4/grudat-lab4.pdf",
     "Grundläggande datorteknik/Labb 4/lab4-2.sflisp",
-    "Grundläggande datorteknik/Bokuppgifter/9.18.lst",
+    "Grundläggande datorteknik/Labb 4/lab4-2.s19",
+    "Grundläggande datorteknik/Labb 4/lab4-2.lst",
+    "Grundläggande datorteknik/Labb 4/lab4-2.fmem",
     "Grundläggande datorteknik/Labb 4/grudat-lab4.xopp",
+    "Grundläggande datorteknik/Labb 4/Lab_4-3B.sflisp",
+    "Grundläggande datorteknik/Labb 4/Lab_4-3B.s19",
+    "Grundläggande datorteknik/Labb 4/Lab_4-3B.lst",
+    "Grundläggande datorteknik/Labb 4/Lab_4-3B.fmem",
+    "Grundläggande datorteknik/Labb 4/Lab_4-3A.sflisp",
+    "Grundläggande datorteknik/s306.jpg",
     "Grundläggande datorteknik/Bokuppgifter/9_20.jpg",
     "Grundläggande datorteknik/Bokuppgifter/9_18.jpg",
-    "Grundläggande datorteknik/Bokuppgifter/9_16.jpg"
+    "Grundläggande datorteknik/Bokuppgifter/9_16.jpg",
+    "Grundläggande datorteknik/s299.jpg",
+    "prompt.md",
+    "Grundläggande datorteknik/rn_image_picker_lib_temp_8a1f8fba-e05a-41b3-b23d-9e85ed14c2b8.jpg",
+    "Grundläggande datorteknik/Bokuppgifter/9.16.md",
+    "Grundläggande datorteknik/rn_image_picker_lib_temp_ac0501b9-e369-422c-b946-03be0d875e51.jpg",
+    "Grundläggande datorteknik/rn_image_picker_lib_temp_577bb143-22c2-403d-a582-564839a0798d.jpg",
+    "Grundläggande datorteknik/Uppgifter.md",
+    "Grundläggande datorteknik/Lecture details/lecture-6-13112025.md",
+    "Grundläggande datorteknik/Lecture details/lecture-5-11112025.md",
+    "Grundläggande datorteknik/Lecture details/lecture-4-10112025.md",
+    "Grundläggande datorteknik/Lecture details/lecture-1-3112025.md",
+    "Grundläggande datorteknik/Lecture details/lecture-2-4112025.md",
+    "Grundläggande datorteknik/Lecture details/lecture-3-6112025.md",
+    "Grundläggande datorteknik/Lecture details/Drawing 2025-11-28 23.19.13.excalidraw.md",
+    "Uppgifter 2.md",
+    "response.md",
+    "Grundläggande datorteknik/Lecture details/welcome-to-the-course.md",
+    "Grundläggande datorteknik/Lecture details/demo-2-12112025.md",
+    "Grundläggande datorteknik/Lecture details/week-2-overview.md",
+    "Grundläggande datorteknik/Lecture details/demonstration-1-5112025.md",
+    "Grundläggande datorteknik/Lecture details/week-1-overview.md",
+    "Grundläggande datorteknik/Lecture details/week-4-overview.md",
+    "Grundläggande datorteknik/Lecture details/week-3-overview.md",
+    "Grundläggande datorteknik/Lecture details/lecture-10-25112025.md",
+    "Grundläggande datorteknik/Lecture details/lecture-9-24112025.md",
+    "Grundläggande datorteknik/Lecture details/lecture-8-18112025.md",
+    "Grundläggande datorteknik/Lecture details/lecture-7-17112025.md",
+    "Grundläggande datorteknik/Lecture details/demo-4-27112025.md",
+    "Grundläggande datorteknik/Lecture details/demo-3-20112025.md",
+    "attachments/Pasted image 20251118235752.png",
+    "attachments/Pasted image 20251119024530.png"
   ]
 }
