@@ -13,6 +13,8 @@ Main:
 
 
 ReadAscii:
+	LDA Inport
+	LSRA
 	RTS
 
 
