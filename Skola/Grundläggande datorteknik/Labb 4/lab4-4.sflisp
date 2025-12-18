@@ -9,13 +9,17 @@ DelayC2	EQU	$2		;Ändra dem eventuellt i labbet så att fördröjnigen blir riml
 	ORG	$20
 
 Main:
+	JSR ReadAscii
 	BRA	Main
 
 
 ReadAscii:
-	LDA Inport
-	LSRA
-	RTS
+	PSHC
+	LDA Inport		; A <- Inport
+	ORA #%00000001
+	LSRA			; A <- A >> 1
+	PULC
+	RTS				; Retur(A)
 
 
 	

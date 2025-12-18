@@ -15,73 +15,76 @@ FF 20                   7. 	FCB	$20
 20                      9. 	ORG	$20
                        10. 
 20                     11. Main:
-20 21 FE               12. 	BRA	Main
-                       13. 
+20 34 24               12. 	JSR ReadAscii
+22 21 FC               13. 	BRA	Main
                        14. 
-22                     15. ReadAscii:
-22 43                  16. 	RTS
-                       17. 
-                       18. 
-23                     19. 	
-23                     20. BlinkLight:
-23 43                  21. 	RTS
-24                     22. 	
-24                     23. 	
-                       24. ; Orsakar en fördröjning på ungefär 1s i simulatorn (vid snabb exekveringshastighet)
-                       25. ; Ändrar inga register
-24                     26. Delay1s:
-24 10                  27. 	PSHA
-25 11                  28. 	PSHX
-26 13                  29. 	PSHC
-27 90 02               30. 	LDX	#DelayC2
-29                     31. Delay1s_loop2:
-29 F0 05               32. 	LDA	#DelayC1
-2B                     33. Delay1s_loop:
-2B 08                  34. 	DECA
-2C 25 FD               35. 	BNE	Delay1s_loop
-2E CC FF               36. 	LEAX	-1,X
-30 9C 00               37. 	CMPX	#0
-32 25 F5               38. 	BNE	Delay1s_loop2
-34 17                  39. 	PULC
-35 15                  40. 	PULX
-36 14                  41. 	PULA
-37 43                  42. 	RTS
-                       43. 
-                       44. ; Data - Variabler
-38                     45. Count:
-38 00                  46. 	RMB	1
-                       47. 
-                       48. ; Data - Konstanter
-39                     49. MorseCode:
-39 02 40               50. 	FCB	2,%01000000 ;'A'
-3B 04 80               51. 	FCB	4,%10000000 ;'B'
-3D 04 A0               52. 	FCB	4,%10100000 ;'C'
-3F 03 80               53. 	FCB	3,%10000000 ;'D'
-41 01 00               54. 	FCB	1,%00000000 ;'E'
-43 04 20               55. 	FCB	4,%00100000 ;'F'
-45 03 C0               56. 	FCB	3,%11000000 ;'G'
-47 04 00               57. 	FCB	4,%00000000 ;'H'
-49 02 00               58. 	FCB	2,%00000000 ;'I'
-4B 04 70               59. 	FCB	4,%01110000 ;'J'
-4D 03 A0               60. 	FCB	3,%10100000 ;'K'
-4F 04 40               61. 	FCB	4,%01000000 ;'L'
-51 02 C0               62. 	FCB	2,%11000000 ;'M'
-53 02 80               63. 	FCB	2,%10000000 ;'N'
-55 03 E0               64. 	FCB	3,%11100000 ;'O'
-57 04 60               65. 	FCB	4,%01100000 ;'P'
-59 04 D0               66. 	FCB	4,%11010000 ;'Q'
-5B 03 40               67. 	FCB	3,%01000000 ;'R'
-5D 03 00               68. 	FCB	3,%00000000 ;'S'
-5F 01 80               69. 	FCB	1,%10000000 ;'T'
-61 03 20               70. 	FCB	3,%00100000 ;'U'
-63 04 10               71. 	FCB	4,%00010000 ;'V'
-65 03 60               72. 	FCB	3,%01100000 ;'W'
-67 04 90               73. 	FCB	4,%10010000 ;'X'
-69 04 B0               74. 	FCB	4,%10110000 ;'Y'
-6B 04 C0               75. 	FCB	4,%11000000 ;'Z'
-6D                     76. 	
-6D                     77. 	
-6D                     78. 	
-6D                     79. 	
-6D                     80. 	
-6D                     81. 	
+                       15. 
+24                     16. ReadAscii:
+24 F1 FC               17. 	LDA Inport		; A <- Inport
+26 0C                  18. 	LSRA			; A <- A >> 1
+27 43                  19. 	RTS				; Retur(A)
+                       20. 
+                       21. 
+28                     22. 	
+28                     23. BlinkLight:
+28 43                  24. 	RTS
+29                     25. 	
+29                     26. 	
+                       27. ; Orsakar en fördröjning på ungefär 1s i simulatorn (vid snabb exekveringshastighet)
+                       28. ; Ändrar inga register
+29                     29. Delay1s:
+29 10                  30. 	PSHA
+2A 11                  31. 	PSHX
+2B 13                  32. 	PSHC
+2C 90 02               33. 	LDX	#DelayC2
+2E                     34. Delay1s_loop2:
+2E F0 05               35. 	LDA	#DelayC1
+30                     36. Delay1s_loop:
+30 08                  37. 	DECA
+31 25 FD               38. 	BNE	Delay1s_loop
+33 CC FF               39. 	LEAX	-1,X
+35 9C 00               40. 	CMPX	#0
+37 25 F5               41. 	BNE	Delay1s_loop2
+39 17                  42. 	PULC
+3A 15                  43. 	PULX
+3B 14                  44. 	PULA
+3C 43                  45. 	RTS
+                       46. 
+                       47. ; Data - Variabler
+3D                     48. Count:
+3D 00                  49. 	RMB	1
+                       50. 
+                       51. ; Data - Konstanter
+3E                     52. MorseCode:
+3E 02 40               53. 	FCB	2,%01000000 ;'A'
+40 04 80               54. 	FCB	4,%10000000 ;'B'
+42 04 A0               55. 	FCB	4,%10100000 ;'C'
+44 03 80               56. 	FCB	3,%10000000 ;'D'
+46 01 00               57. 	FCB	1,%00000000 ;'E'
+48 04 20               58. 	FCB	4,%00100000 ;'F'
+4A 03 C0               59. 	FCB	3,%11000000 ;'G'
+4C 04 00               60. 	FCB	4,%00000000 ;'H'
+4E 02 00               61. 	FCB	2,%00000000 ;'I'
+50 04 70               62. 	FCB	4,%01110000 ;'J'
+52 03 A0               63. 	FCB	3,%10100000 ;'K'
+54 04 40               64. 	FCB	4,%01000000 ;'L'
+56 02 C0               65. 	FCB	2,%11000000 ;'M'
+58 02 80               66. 	FCB	2,%10000000 ;'N'
+5A 03 E0               67. 	FCB	3,%11100000 ;'O'
+5C 04 60               68. 	FCB	4,%01100000 ;'P'
+5E 04 D0               69. 	FCB	4,%11010000 ;'Q'
+60 03 40               70. 	FCB	3,%01000000 ;'R'
+62 03 00               71. 	FCB	3,%00000000 ;'S'
+64 01 80               72. 	FCB	1,%10000000 ;'T'
+66 03 20               73. 	FCB	3,%00100000 ;'U'
+68 04 10               74. 	FCB	4,%00010000 ;'V'
+6A 03 60               75. 	FCB	3,%01100000 ;'W'
+6C 04 90               76. 	FCB	4,%10010000 ;'X'
+6E 04 B0               77. 	FCB	4,%10110000 ;'Y'
+70 04 C0               78. 	FCB	4,%11000000 ;'Z'
+72                     79. 	
+72                     80. 	
+72                     81. 	
+72                     82. 	
+72                     83. 	
+72                     84. 	
