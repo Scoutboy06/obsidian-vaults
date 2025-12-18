@@ -29,10 +29,12 @@ Main_2:
 	PULA
 	INCA			; Beräkna offset för pulsmönstret
 	STA A,X  		; Hämta pulsmönstret (Morsekoden) för bokstaven
-					; Repetera så länge som Count != 0
-					; Anropa blinkrutinen
-					; A <- A << 1
-					; Count <- Count - 1
+Main_3:
+	JSR BlinkLight	; Anropa blinkrutinen
+	LSLA			; A <- A << 1
+	DEC Count		; Count <- Count - 1
+	TST Count		; Count=0 ?
+	BNE Main_3		; NEJ
 	JMP	Main		; Börja om från inläsningen
 
 
