@@ -42,9 +42,10 @@ ReadAscii:
 	PSHC
 ReadAscii_1:
 	LDA Inport		; A <- Inport
-	BITA #%00000001	; CC(Z) = ! A bit0
+	BITA #%00000001	; CC(Z) = NOT A bit0
 	BNE ReadAscii_1	; CC(Z) = 1 ?
 ReadAscii_2:
+	LDA Inport
 	BITA #%00000001	; CC(Z) <- A bit0
 	BEQ ReadAscii_2 ; CC(Z) = 0 ?
 	LSRA			; A <- A >> 1
