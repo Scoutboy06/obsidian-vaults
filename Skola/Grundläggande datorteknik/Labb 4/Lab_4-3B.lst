@@ -11,11 +11,11 @@ FB                      2. OUTPORT:		EQU $FB 			;
 01 05 06 0A 09          5. state_vector:	FCB $5,$6,$A,$9 	;
 20                      6. 				ORG $20
 20 92 20                7. start:			LDSP #start 		;
-22 A0 01                8. 				LDX state_vector 	;
+22 90 01                8. 				LDX #state_vector 	;
 24 F1 FC                9. start_1:		LDA INPORT			; A <- INPORT
 26 34 39               10. 				JSR Delay 			; Delay(A)
 28 F1 00               11. 				LDA state_index		; A <- state_index
-2A F4                  12. 				LDA A,X 			; A <- state_vector[X]
+2A F4                  12. 				LDA A,X 			; A <- M(A+X)
 2B E1 FB               13. 				STA OUTPORT 		; OUTPORT <- A
 2D 34 31               14. 				JSR NextState 		; NextState()
 2F 33 24               15. 				JMP start_1 		;

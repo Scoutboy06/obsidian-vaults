@@ -11,7 +11,7 @@ File: Lab_4-3B.fmem
  #setMemory  04=09
  #setMemory  20=92
  #setMemory  21=20
- #setMemory  22=A0
+ #setMemory  22=90
  #setMemory  23=01
  #setMemory  24=F1
  #setMemory  25=FC

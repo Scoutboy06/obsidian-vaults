@@ -5,11 +5,11 @@ state_index:	FCB $0 				;
 state_vector:	FCB $5,$6,$A,$9 	;
 				ORG $20
 start:			LDSP #start 		;
-				LDX state_vector 	;
+				LDX #state_vector 	;
 start_1:		LDA INPORT			; A <- INPORT
 				JSR Delay 			; Delay(A)
 				LDA state_index		; A <- state_index
-				LDA A,X 			; A <- state_vector[X]
+				LDA A,X 			; A <- M(A+X)
 				STA OUTPORT 		; OUTPORT <- A
 				JSR NextState 		; NextState()
 				JMP start_1 		;
