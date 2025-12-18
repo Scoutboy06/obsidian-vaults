@@ -10,9 +10,25 @@ DelayC2	EQU	$2		;Ändra dem eventuellt i labbet så att fördröjnigen blir riml
 
 Main:
 	CLR Utport
+Main_1:
 	JSR ReadAscii
-	SUBA #$41
-	JMP	Main
+	SUBA #$41		; Räkna ut ordningstalet för bokstaven som lästes in. (Ordningstalet för 'A' = 0)
+	; Undersök att A är på ett giltigt intervall. Om inte, skapa en loop där
+	; lampan tänds (Något är ju fel, så programmet skall fastna här)
+	LSLA ; A <- 2A
+	PSHA
+	LDX #MorseCode	; X <- Startadress för tabell med Morsekoder
+	LDA A,X  		; A <- M(X+A)
+	STA Count		; Count <- A
+	PULA
+	INCA			; A <- A+1
+	STA A,X  		; A <- M(X+A)
+	; Repetera så länge som Count != 0
+		; Anropa blinkrutinen
+		; A <- A << 1
+		; Count <- Count - 1
+	; Börja om från inläsningen
+	JMP	Main_1
 
 
 ReadAscii:
