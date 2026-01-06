@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e02ee2f1674b246d",
+        "id": "0020ae033a7c2764",
         "type": "tabs",
         "children": [
           {
-            "id": "3a66aaf1326e0e4e",
+            "id": "7d7c0e0f524f8a06",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -180,7 +180,7 @@
       "xournalpp:Create new Xournal++ note": false
     }
   },
-  "active": "3a66aaf1326e0e4e",
+  "active": "60ce05e4eaeab862",
   "lastOpenFiles": [
     "Grundläggande datorteknik/Labb 4/grudat-lab4.pdf",
     "Grundläggande datorteknik/Labb 4/lab4-2.sflisp",
