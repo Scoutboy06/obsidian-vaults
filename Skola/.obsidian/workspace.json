@@ -4,28 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "f1f3e8ba921589f2",
+        "id": "731237e524e435a8",
         "type": "tabs",
-        "dimension": 55.027173913043484,
-        "children": [
-          {
-            "id": "17406781a4652477",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Grundläggande datorteknik/Gamla tentor/Tentamen_2025_04_14_utan_lösningar.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Tentamen_2025_04_14_utan_lösningar"
-            }
-          }
-        ]
-      },
-      {
-        "id": "0c57ec644fa54cf0",
-        "type": "tabs",
-        "dimension": 44.97282608695652,
+        "dimension": 50,
         "children": [
           {
             "id": "49e124bdd22a8ca1",
@@ -39,6 +20,25 @@
               },
               "icon": "lucide-file",
               "title": "Tentamen_2025_04_14"
+            }
+          }
+        ]
+      },
+      {
+        "id": "f1f3e8ba921589f2",
+        "type": "tabs",
+        "dimension": 50,
+        "children": [
+          {
+            "id": "17406781a4652477",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Grundläggande datorteknik/Gamla tentor/Tentamen_2025_04_14_utan_lösningar.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Tentamen_2025_04_14_utan_lösningar"
             }
           }
         ]
@@ -205,10 +205,10 @@
       "xournalpp:Create new Xournal++ note": false
     }
   },
-  "active": "49e124bdd22a8ca1",
+  "active": "17406781a4652477",
   "lastOpenFiles": [
-    "Grundläggande datorteknik/Gamla tentor/Tentamen_2025_04_14_utan_lösningar.pdf",
     "Grundläggande datorteknik/Gamla tentor/Tentamen_2025_04_14.md",
+    "Grundläggande datorteknik/Gamla tentor/Tentamen_2025_04_14_utan_lösningar.pdf",
     "Grundläggande datorteknik/Uppgifter.md",
     "Grundläggande datorteknik/Gamla tentor",
     "Grundläggande datorteknik/Obekräftade 986795.crdownload",
