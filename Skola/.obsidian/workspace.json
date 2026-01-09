@@ -4,9 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "731237e524e435a8",
+        "id": "f1f3e8ba921589f2",
         "type": "tabs",
-        "dimension": 31.11413043478261,
+        "dimension": 27.785326086956523,
         "children": [
           {
             "id": "49e124bdd22a8ca1",
@@ -25,9 +25,9 @@
         ]
       },
       {
-        "id": "f1f3e8ba921589f2",
+        "id": "2291c20d8a71b01b",
         "type": "tabs",
-        "dimension": 68.88586956521739,
+        "dimension": 72.21467391304348,
         "children": [
           {
             "id": "17406781a4652477",
