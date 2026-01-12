@@ -10,7 +10,7 @@
           {
             "id": "e26229671b8e0161",
             "type": "tabs",
-            "dimension": 62.16216216216216,
+            "dimension": 49.631449631449634,
             "children": [
               {
                 "id": "567cde5733ae6b10",
@@ -31,7 +31,7 @@
           {
             "id": "25fded822117c025",
             "type": "tabs",
-            "dimension": 37.83783783783784,
+            "dimension": 50.368550368550366,
             "children": [
               {
                 "id": "9ceff6682ab24f68",
@@ -212,10 +212,10 @@
       "xournalpp:Create new Xournal++ note": false
     }
   },
-  "active": "567cde5733ae6b10",
+  "active": "9ceff6682ab24f68",
   "lastOpenFiles": [
-    "Advanced Python/old exams/exam_2025_08.pdf",
     "Advanced Python/old exams/exam 2025-08.md",
+    "Advanced Python/old exams/exam_2025_08.pdf",
     "Advanced Python/old exams/solutions_2025_08.py",
     "Advanced Python/old exams/Obekräftade 16554.crdownload",
     "Grundläggande datorteknik/Gamla tentor/Tentamen_2025_04_14.md",
