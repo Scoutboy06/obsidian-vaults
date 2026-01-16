@@ -14,7 +14,9 @@ main:
 	ORG $30
 add_nums:
 	LDA 0,X		; M(X) -> A
-	PSHC
+	PSHC		; CC -> M(SP); SP - 1 -> SP
+	ADDA 1,X 	; A + M(X + 1) -> A
+	PULC
 
 	RTS
 
