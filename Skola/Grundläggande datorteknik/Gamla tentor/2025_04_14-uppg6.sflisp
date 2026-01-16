@@ -3,3 +3,13 @@
 ; Subroutine: n1 + n2 -> A
 ; Adr is stored in X
 
+	ORG $20
+main:
+	
+
+add_nums:
+	
+
+
+	ORG $FF
+	LDA $20
