@@ -1,0 +1,5 @@
+; n1 = M(Adr)
+; n2 = M(Adr + 1)
+; Subroutine: n1 + n2 -> A
+; Adr is stored in X
+
