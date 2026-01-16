@@ -4,7 +4,7 @@
 ; Adr is stored in X
 	ORG $0
 NUMS:
-	FCB	$12, $34
+	FCB	$12, $34 ; $12 + $34 = $46
 
 	ORG $20
 main:
@@ -14,6 +14,7 @@ main:
 	ORG $30
 add_nums:
 	LDA 0,X		; M(X) -> A
+	PSHC
 
 	RTS
 
