@@ -2,13 +2,20 @@
 ; n2 = M(Adr + 1)
 ; Subroutine: n1 + n2 -> A
 ; Adr is stored in X
+	ORG $0
+NUMS:
+	FCB	$12, $34
 
 	ORG $20
 main:
-	
+	LDX NUMS
+	JSR add_nums
 
+	ORG $30
 add_nums:
-	
+	LDA 0,X		; M(X) -> A
+
+	RTS
 
 
 	ORG $FF
