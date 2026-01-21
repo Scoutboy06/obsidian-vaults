@@ -11,10 +11,14 @@
             "id": "f202c41e23a5823a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Linjär Algebra/TODO.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "TODO"
             }
           }
         ]
@@ -74,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5,
-    "collapsed": true
+    "width": 280.5
   },
   "right": {
     "id": "81d5e941cabe3e48",
@@ -183,6 +186,9 @@
   },
   "active": "f202c41e23a5823a",
   "lastOpenFiles": [
+    "prompt.md",
+    "Linjär Algebra/TODO.md",
+    "Linjär Algebra",
     "Advanced Python/old exams/exam_2025_08.pdf",
     "Advanced Python/old exams/exam 2025-08.md",
     "Advanced Python/old exams/solutions_2025_08.py",
@@ -196,13 +202,11 @@
     "Advanced Python/old exams/solutions_2024_08.py",
     "Advanced Python/old exams/Obekräftade 995889.crdownload",
     "Advanced Python/old exams/Obekräftade 727895.crdownload",
-    "Advanced Python/old exams",
     "Grundläggande datorteknik/s306.jpg",
     "Grundläggande datorteknik/Bokuppgifter/9_20.jpg",
     "Grundläggande datorteknik/Bokuppgifter/9_18.jpg",
     "Grundläggande datorteknik/Bokuppgifter/9_16.jpg",
     "Grundläggande datorteknik/s299.jpg",
-    "prompt.md",
     "Grundläggande datorteknik/rn_image_picker_lib_temp_8a1f8fba-e05a-41b3-b23d-9e85ed14c2b8.jpg",
     "Grundläggande datorteknik/Bokuppgifter/9.16.md",
     "Grundläggande datorteknik/rn_image_picker_lib_temp_ac0501b9-e369-422c-b946-03be0d875e51.jpg",
