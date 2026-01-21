@@ -5,8 +5,8 @@ gantt
     title Linjär algebra – referenslinje
     axisFormat  %d/%m
 
-    section Föreläsningar
-    Linjära ekvationssystem, Gausseliminering :milestone,done, f1, 2026-01-19, 2026-01-21
+    section Kurslinje
+    Linjära ekvationssystem, Gausseliminering: f1, 2026-01-19, 2026-01-21
     Geometriska vektorer, räkneoperationer för vektorer, bas och koordinater: f2, 2026-01-21, 2026-01-23
     Algebraiska vektorer, linjärkombination, linjärt beroende/oberoende, basbyten: f3, 2026-01-23, 2026-01-26
     Linjer och plan. Koordinatsystem och ekvationer för linjer och plan. Beräkning av skärningspunkter: f4, 2026-01-26, 2026-01-29
