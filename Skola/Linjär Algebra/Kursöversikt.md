@@ -6,15 +6,15 @@ gantt
     axisFormat  %d/%m
 
     section Föreläsningar
-    Linjära ekvationssystem, Gausseliminering :done, f1, 2026-01-19, 2026-01-21
+    Linjära ekvationssystem, Gausseliminering :milestone,done, f1, 2026-01-19, 2026-01-21
     Geometriska vektorer, räkneoperationer för vektorer, bas och koordinater: f2, 2026-01-21, 2026-01-23
     Algebraiska vektorer, linjärkombination, linjärt beroende/oberoende, basbyten: f3, 2026-01-23, 2026-01-26
     Linjer och plan. Koordinatsystem och ekvationer för linjer och plan. Beräkning av skärningspunkter: f4, 2026-01-26, 2026-01-29
     Geometrisk tolkning av linjära ekvationssystem. Skalärprodukt. Projektion, räknelagar: f5, 2026-01-29, 2026-01-30
     ON-baser. Tillämpningar av skalärprodukt: f6, 2026-01-30, 2026-02-02
-    F7: f7, 2026-02-02, 2026-02-04
-    F8: f8, 2026-02-04, 2026-02-05
-    F9: f9, 2026-02-05, 2026-02-09
+    Vektorprodukt. Orientering, skalär trippelprodukt, och räknelagar. Formler i ON-baser: f7, 2026-02-02, 2026-02-04
+    Tillämpningar av vektorprodukt: f8, 2026-02-04, 2026-02-05
+    Rummet R^n Baser, Skalärprodukt: f9, 2026-02-05, 2026-02-09
     F10: f10, 2026-02-09, 2026-02-11
     F11: f11, 2026-02-11, 2026-02-13
     F12: f12, 2026-02-13, 2026-02-16
