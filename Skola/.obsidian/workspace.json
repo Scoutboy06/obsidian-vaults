@@ -4,39 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e26229671b8e0161",
+        "id": "6b91ed4e59f55c22",
         "type": "tabs",
         "children": [
           {
-            "id": "567cde5733ae6b10",
+            "id": "f202c41e23a5823a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Advanced Python/old exams/exam 2025-08.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "exam 2025-08"
-            }
-          }
-        ]
-      },
-      {
-        "id": "3e10c0d8860c4317",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "9ceff6682ab24f68",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Advanced Python/old exams/exam_2025_08.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "exam_2025_08"
+              "title": "New tab"
             }
           }
         ]
@@ -203,7 +181,7 @@
       "xournalpp:Create new Xournal++ note": false
     }
   },
-  "active": "567cde5733ae6b10",
+  "active": "f202c41e23a5823a",
   "lastOpenFiles": [
     "Advanced Python/old exams/exam_2025_08.pdf",
     "Advanced Python/old exams/exam 2025-08.md",
