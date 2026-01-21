@@ -5,7 +5,7 @@ gantt
     title Linjär algebra – referenslinje
     axisFormat  %d/%m
 
-    section Kurslinje
+    section Föreläsningar
     Linjära ekvationssystem, Gausseliminering: f1, 2026-01-19, 2026-01-21
     Geometriska vektorer, räkneoperationer för vektorer, bas och koordinater: f2, 2026-01-21, 2026-01-23
     Algebraiska vektorer, linjärkombination, linjärt beroende/oberoende, basbyten: f3, 2026-01-23, 2026-01-26
@@ -29,7 +29,7 @@ gantt
     F21: f21, 2026-03-06, 2026-03-09
 
     section Duggor
-    Dugga 1 :milestone, d1, 2026-01-19, 2026-02-09
+    Dugga 1 : d1, 2026-01-19, 2026-02-09
 
     section Laborationer
     Introduktion till Python :milestone, l1, 2026-01-30, 2026-01-30
