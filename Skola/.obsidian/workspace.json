@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linjär Algebra/Kursöversikt.md",
+                "file": "Linjär Algebra/test.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kursöversikt"
+              "title": "test"
             }
           }
         ]
@@ -186,13 +186,16 @@
   },
   "active": "ca78ccf9e283abd9",
   "lastOpenFiles": [
+    "Linjär Algebra/Kursöversikt.md",
+    "Linjär Algebra/test.md",
+    "Templates/gantt-view.md",
+    "Templates",
     "Linjär Algebra/resources/Övningar i Linjär algebra.pdf",
     "Linjär Algebra/resources/Obekräftade 280695.crdownload",
     "Linjär Algebra/resources/Linjär Algebra.pdf",
     "Linjär Algebra/resources/Obekräftade 919353.crdownload",
     "Linjär Algebra/resources",
     "Grundläggande datorteknik/Course_Roadmap.md",
-    "Linjär Algebra/Kursöversikt.md",
     "Linjär Algebra/Timeline.md",
     "Linjär Algebra/_index.md",
     "Exams/Dugga 1.md",
@@ -200,8 +203,6 @@
     "Linjär Algebra/Resources",
     "Linjär Algebra/Exams",
     "Linjär Algebra/Tasks",
-    "Linjär Algebra/Lectures",
-    "Linjär Algebra/Weeks",
     "conflict-files-obsidian-git.md",
     "Linjär Algebra/TODO.md",
     "prompt.md",
@@ -229,7 +230,6 @@
     "Grundläggande datorteknik/Lecture details/welcome-to-the-course.md",
     "Grundläggande datorteknik/Lecture details/demo-2-12112025.md",
     "Grundläggande datorteknik/Lecture details/week-2-overview.md",
-    "Grundläggande datorteknik/Lecture details/demonstration-1-5112025.md",
     "attachments/Pasted image 20251118235752.png",
     "attachments/Pasted image 20251119024530.png"
   ]
