@@ -30,7 +30,7 @@ Denna kurs är organiserad enligt följande principer:
 ## Läsveckor (översikt)
 ```dataview
 LIST
-FROM "Skola/Linjär Algebra/Weeks"
+FROM "Linjär Algebra/Weeks"
 SORT week ASC
 ```
 
