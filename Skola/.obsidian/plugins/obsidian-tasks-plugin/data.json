@@ -14,7 +14,7 @@
   "removeGlobalFilter": false,
   "taskFormat": "tasksPluginEmoji",
   "setCreatedDate": false,
-  "setDoneDate": true,
+  "setDoneDate": false,
   "setCancelledDate": true,
   "autoSuggestInEditor": true,
   "autoSuggestMinMatch": 0,
