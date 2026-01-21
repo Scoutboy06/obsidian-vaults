@@ -1,3 +1,6 @@
 .obsidian/workspace.json
 .autosave.xopp
 *.sflisp~~~
+*.fmem
+*.lst
+*.s19
