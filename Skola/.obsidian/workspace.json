@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linjär Algebra/Timeline.md",
+                "file": "Linjär Algebra/course.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Timeline"
+              "title": "course"
             }
           }
         ]
@@ -186,8 +186,9 @@
   },
   "active": "ca78ccf9e283abd9",
   "lastOpenFiles": [
-    "Linjär Algebra/_index.md",
     "Linjär Algebra/Timeline.md",
+    "Linjär Algebra/course.md",
+    "Linjär Algebra/_index.md",
     "Exams/Dugga 1.md",
     "Exams",
     "Linjär Algebra/Resources",
@@ -229,7 +230,6 @@
     "Grundläggande datorteknik/Lecture details/week-2-overview.md",
     "Grundläggande datorteknik/Lecture details/demonstration-1-5112025.md",
     "Grundläggande datorteknik/Lecture details/week-1-overview.md",
-    "Grundläggande datorteknik/Lecture details/week-4-overview.md",
     "attachments/Pasted image 20251118235752.png",
     "attachments/Pasted image 20251119024530.png"
   ]
