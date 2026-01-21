@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linjär Algebra/Tasks.md",
+                "file": "Linjär Algebra/Timeline.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tasks"
+              "title": "Timeline"
             }
           }
         ]
@@ -186,24 +186,26 @@
   },
   "active": "ca78ccf9e283abd9",
   "lastOpenFiles": [
+    "Linjär Algebra/_index.md",
+    "Linjär Algebra/Timeline.md",
+    "Exams/Dugga 1.md",
+    "Exams",
+    "Linjär Algebra/Resources",
+    "Linjär Algebra/Exams",
+    "Linjär Algebra/Tasks",
+    "Linjär Algebra/Lectures",
+    "Linjär Algebra/Weeks",
+    "Linjär Algebra/Schedule",
     "conflict-files-obsidian-git.md",
-    "Linjär Algebra/Tasks.md",
     "Linjär Algebra/TODO.md",
     "Grundläggande datorteknik/Gamla tentor/Tentamen_2025_04_14_med_lösningar.pdf",
     "Grundläggande datorteknik/Gamla tentor/2025_04_14-uppg6.sflisp",
     "prompt.md",
     "Linjär Algebra",
-    "Advanced Python/old exams/exam_2025_08.pdf",
     "Advanced Python/old exams/exam 2025-08.md",
-    "Advanced Python/old exams/solutions_2025_08.py",
-    "Advanced Python/old exams/Obekräftade 16554.crdownload",
     "Grundläggande datorteknik/Gamla tentor/Tentamen_2025_04_14.md",
-    "Grundläggande datorteknik/Gamla tentor/Tentamen_2025_04_14_utan_lösningar.pdf",
     "Grundläggande datorteknik/Uppgifter.md",
-    "Grundläggande datorteknik/Gamla tentor",
-    "Grundläggande datorteknik/Obekräftade 986795.crdownload",
     "Grundläggande datorteknik/Course_Roadmap.md",
-    "Advanced Python/old exams/solutions_2024_08.py",
     "Grundläggande datorteknik/s306.jpg",
     "Grundläggande datorteknik/Bokuppgifter/9_20.jpg",
     "Grundläggande datorteknik/Bokuppgifter/9_18.jpg",
@@ -228,8 +230,6 @@
     "Grundläggande datorteknik/Lecture details/demonstration-1-5112025.md",
     "Grundläggande datorteknik/Lecture details/week-1-overview.md",
     "Grundläggande datorteknik/Lecture details/week-4-overview.md",
-    "Grundläggande datorteknik/Lecture details/week-3-overview.md",
-    "Grundläggande datorteknik/Lecture details/lecture-10-25112025.md",
     "attachments/Pasted image 20251118235752.png",
     "attachments/Pasted image 20251119024530.png"
   ]
