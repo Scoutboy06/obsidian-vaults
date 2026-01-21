@@ -40,3 +40,16 @@
 - [ ] Övningar kap 3
 
 ---
+
+## 📊 Kursens tidslinje (Gantt)
+
+```mermaid
+gantt
+    dateFormat  YYYY-MM-DD
+    title Linjär algebra – referenslinje
+
+    Föreläsning 1 :done, f1, 2026-01-19, 1d
+    Föreläsning 2 :active, f2, 2026-01-21, 1d
+    Föreläsning 3 : f3, 2026-01-23, 1d
+    Föreläsning 4 : f4, 2026-01-26, 1d
+```
