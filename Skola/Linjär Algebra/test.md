@@ -1,3 +1,4 @@
+
 ```dataviewjs
 
 function textParser(taskText, noteCreationDate) {
