@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "2466bc6b4064bfc6",
+    "id": "6e7ce92640822faf",
     "type": "split",
     "children": [
       {
-        "id": "2e1f582ad9f634dc",
+        "id": "3103e1d1a260e246",
         "type": "tabs",
         "children": [
           {
-            "id": "aacf5574c7b0d4f1",
+            "id": "f551372192bff699",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linjär Algebra/Kursöversikt.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Kursöversikt"
+              "title": "New tab"
             }
           }
         ]
@@ -27,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "e6c0158ce0b3c6a7",
+    "id": "14806c20fc90ce60",
     "type": "split",
     "children": [
       {
-        "id": "4eda4815c2dfa5e7",
+        "id": "c0863228d171a29a",
         "type": "tabs",
         "children": [
           {
-            "id": "867ea598776dabc4",
+            "id": "fd150336dce337dd",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +44,7 @@
             }
           },
           {
-            "id": "2e5f5ad0af5c87b8",
+            "id": "73005039bd5578d3",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +61,7 @@
             }
           },
           {
-            "id": "0ae22561a2ed3db4",
+            "id": "cc3e8e835ba0371f",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,23 +74,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.5
+    "width": 300
   },
   "right": {
-    "id": "94c10ce84b619ded",
+    "id": "4c33cf970b6baff2",
     "type": "split",
     "children": [
       {
-        "id": "b087b838a8d550c6",
+        "id": "0ba82353aa7c906a",
         "type": "tabs",
         "children": [
           {
-            "id": "5aa5339171f0314c",
+            "id": "8c3073700daf94ce",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grundläggande datorteknik/Bokuppgifter/9_16.jpg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +99,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 9_16"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "1e8db98339f458db",
+            "id": "3c09b33c3728405c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Grundläggande datorteknik/Bokuppgifter/9_16.jpg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 9_16"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "66bcd5e7e1f47aec",
+            "id": "5b7b1a779a4972c9",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,18 +131,31 @@
             }
           },
           {
-            "id": "e2e7c99c9da0b402",
+            "id": "3c1fc7d9b0772064",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "e57738fdfbe9edc0",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Grundläggande datorteknik/Bokuppgifter/9_16.jpg",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 9_16"
+              "title": "Outline"
             }
           }
         ]
@@ -166,34 +173,9 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "xournalpp:Create new Xournal++ note": false
+      "bases:Create new base": false
     }
   },
-  "active": "aacf5574c7b0d4f1",
-  "lastOpenFiles": [
-    "Templates/gantt-view.md",
-    "Linjär Algebra/Kursöversikt.md",
-    "Linjär Algebra/test.md",
-    "conflict-files-obsidian-git.md",
-    "Templates",
-    "Linjär Algebra/resources/Övningar i Linjär algebra.pdf",
-    "Linjär Algebra/resources/Linjär Algebra.pdf",
-    "Linjär Algebra/resources",
-    "Linjär Algebra",
-    "Grundläggande datorteknik/Gamla tentor/Tentamen_2025_04_14_utan_lösningar.pdf",
-    "Grundläggande datorteknik/Gamla tentor/Tentamen_2025_04_14_med_lösningar.pdf",
-    "Grundläggande datorteknik/Gamla tentor/Tentamen_2025_04_14.md",
-    "Grundläggande datorteknik/Gamla tentor/Unconfirmed 244512.crdownload",
-    "Grundläggande datorteknik/Gamla tentor/2025_04_14-uppg6.fmem",
-    "Grundläggande datorteknik/Gamla tentor/2025_04_14-uppg6.lst",
-    "Grundläggande datorteknik/Bokuppgifter/9_16.jpg",
-    "Grundläggande datorteknik/Course_Roadmap.md",
-    "Advanced Python/old exams/exam 2025-08.md",
-    "Grundläggande datorteknik/Bokuppgifter/9_20.jpg",
-    "Grundläggande datorteknik/Bokuppgifter/9_18.jpg"
-  ]
+  "active": "f551372192bff699",
+  "lastOpenFiles": []
 }
