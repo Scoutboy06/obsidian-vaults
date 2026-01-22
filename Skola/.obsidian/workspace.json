@@ -4,39 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e44698ed34a45af9",
+        "id": "2e1f582ad9f634dc",
         "type": "tabs",
         "children": [
           {
-            "id": "df6aaea61084c0ec",
+            "id": "aacf5574c7b0d4f1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grundläggande datorteknik/Gamla tentor/Tentamen_2025_04_14.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Tentamen_2025_04_14"
-            }
-          }
-        ]
-      },
-      {
-        "id": "b24f8b177521acea",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "824e1b2e41c19ddd",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Grundläggande datorteknik/Gamla tentor/Tentamen_2025_04_14_med_lösningar.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Tentamen_2025_04_14_med_lösningar"
+              "title": "New tab"
             }
           }
         ]
@@ -191,11 +169,11 @@
       "xournalpp:Create new Xournal++ note": false
     }
   },
-  "active": "824e1b2e41c19ddd",
+  "active": "aacf5574c7b0d4f1",
   "lastOpenFiles": [
-    "Grundläggande datorteknik/Gamla tentor/Tentamen_2025_04_14.md",
     "Grundläggande datorteknik/Gamla tentor/Tentamen_2025_04_14_utan_lösningar.pdf",
     "Grundläggande datorteknik/Gamla tentor/Tentamen_2025_04_14_med_lösningar.pdf",
+    "Grundläggande datorteknik/Gamla tentor/Tentamen_2025_04_14.md",
     "Grundläggande datorteknik/Gamla tentor/Unconfirmed 244512.crdownload",
     "Grundläggande datorteknik/Gamla tentor/2025_04_14-uppg6.fmem",
     "Grundläggande datorteknik/Gamla tentor/2025_04_14-uppg6.lst",
