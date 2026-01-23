@@ -30,6 +30,7 @@ const Kurslinje = `
     Affina avbildningar och determinanter (F16): f16, 2026-02-23, 2026-02-25
     Determinanter forts., Cramers regel (F17): f17, 2026-02-25, 2026-02-27
     Huvudsatsen för kvadratiska matriser (F18): f18, 2026-02-27, 2026-03-02
+    Sista dag för tentamensanmälan :milestone, 2026-03-02, 0d
     
     section Läsvecka 7
     Egenvärden och egenvektorer (F19): f19, 2026-03-02, 2026-03-04
