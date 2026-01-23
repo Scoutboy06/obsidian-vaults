@@ -80,8 +80,8 @@ dv.paragraph("```mermaid\n" + Mermaid + "\n```")
 **Kapitel 1:**
 - [-] 1
 - [-] 2
-- [-] 3
-- [x] 4
+- [ ] 3
+- [ ] 4
 - [ ] 7
 - [ ] 8
 - [ ] 9
