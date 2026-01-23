@@ -85,7 +85,7 @@ dv.paragraph("```mermaid\n" + Mermaid + "\n```")
 - [x] 7
 - [x] 8
 - [x] 9
-- [ ] 10
+- [x] 10
 - [ ] 11
 - [ ] 12
 - [ ] 15
