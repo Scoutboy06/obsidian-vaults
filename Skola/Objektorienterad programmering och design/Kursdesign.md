@@ -1,0 +1,208 @@
+```mermaid
+gantt
+    dateFormat  YYYY-MM-DD
+    title Objektorienterad programmering och design – kurslinje
+    axisFormat  %d/%m
+
+    section Block 1
+    Open-Closed Principle, Föreläsning, Övning: b1, 2026-01-01, 1d
+
+    section Block 2
+    Java och statisk typning, Föreläsning, Övning: b2, 2026-01-02, 1d
+
+    section Block 3
+    UML, klasser och objekt, Föreläsning, Övning: b3, 2026-01-03, 1d
+
+    section Block 4
+    Subtypspolymorfism, Föreläsning, Övning: b4, 2026-01-04, 1d
+
+    section Block 5
+    Komposition vs arv, Föreläsning, Övning: b5, 2026-01-05, 1d
+
+    section Block 6
+    Parametrisk polymorfism, Föreläsning, Övning: b6, 2026-01-06, 1d
+
+    section Block 7
+    Subtyper och varians, Föreläsning, Övning: b7, 2026-01-07, 1d
+
+    section Block 8
+    Beroenden, Föreläsning, Övning: b8, 2026-01-08, 1d
+
+    section Block 9
+    Modulär design, Föreläsning, Övning: b9, 2026-01-09, 1d
+
+    section Block 10
+    Designmönster, Föreläsning, Övning: b10, 2026-01-10, 1d
+
+    section Block 11
+    Design för beroenden, Föreläsning, Övning: b11, 2026-01-11, 1d
+
+    section Block 12
+    Design för robusthet, Föreläsning, Övning: b12, 2026-01-12, 1d
+
+    section Block 13
+    Design för representation och tillstånd, Föreläsning, Övning: b13, 2026-01-13, 1d
+
+    section Block 14
+    Objektorientering vs Funktionell programmering, Föreläsning, Övning: b14, 2026-01-14, 1d
+
+    section Block 15
+    Översikt och slutsatser, Föreläsning, Övning: b15, 2026-01-15, 1d
+
+    section Block 16
+    Looking ahead, Föreläsning, Övning: b16, 2026-01-16, 1d
+```
+
+## Block 1
+📅
+
+### 📖 Läsning
+- [ ] 1
+- [ ] 2.0–2.1
+- [ ] 4.9–4.11
+- [ ] 5.4
+- [ ] 5.7
+- [ ] Appendix B
+
+### ✏️ Rekommenderade uppgifter
+- [ ] Intro quiz 1: Open-Closed Principle
+
+---
+
+## Block 2
+📅
+
+### 📖 Läsning
+- [ ] 2.2–2.3
+- [ ] 2.5–2.7
+
+### ✏️ Rekommenderade uppgifter
+- [ ] Intro quiz 2: Java och typkontroll
+
+---
+
+## Block 3
+📅
+
+### 📖 Läsning
+- [ ] 2.4
+- [ ] 3.5
+- [ ] Appendix A
+
+---
+
+## Block 4
+📅
+
+### 📖 Läsning
+- [ ] 2.8–2.11
+
+---
+
+## Block 5
+📅
+
+### 📖 Läsning
+- [ ] 3
+
+---
+
+## Block 6
+📅
+
+### 📖 Läsning
+- [ ] Java Generics (tutorials point)
+
+---
+
+## Block 7
+📅
+
+### 📖 Läsning
+- [ ] Type Dependency in Java Part 1
+- [ ] Type Dependency in Java Part 2
+
+---
+
+## Block 8
+📅
+
+### 📖 Läsning
+- [ ] 5.1–5.2
+- [ ] 5.8
+
+---
+
+## Block 9
+📅
+
+### 📖 Läsning
+- [ ] 4.0–4.3
+- [ ] 5.3–5.5
+- [ ] 5.7
+
+---
+
+## Block 10
+📅
+
+### 📖 Läsning
+- [ ] 7.0
+- [ ] 8.7
+
+---
+
+## Block 11
+📅
+
+### 📖 Läsning
+- [ ] 8.0–8.4
+
+---
+
+## Block 12
+📅
+
+### 📖 Läsning
+- [ ] 5.6
+- [ ] 7.2
+- [ ] 8.6
+
+---
+
+## Block 13
+📅
+
+### 📖 Läsning
+- [ ] 4.4–4.6
+
+---
+
+## Block 14
+📅
+
+### 📖 Läsning
+- [ ] Algebraic Data Types vs Object Hierarchies
+- [ ] Lambda expressions i Java
+
+---
+
+## Block 15
+📅
+
+---
+
+## Block 16
+📅
+
+---
+
+## Självstudier
+
+- [ ] Självstudiematerial (Git, Javadoc, JUnit)
+
+---
+
+## Licens
+
+[![CC attribution non-commercial](https://du11hjcvx0uqb.cloudfront.net/dist/images/cc/cc_by_nc-1d2b7301ee.png)](http://creativecommons.org/licenses/by-nc/4.0) Detta kursinnehåll är tillgängligt under en **[CC attribution non-commercial](http://creativecommons.org/licenses/by-nc/4.0)** licens. Innehåll i kursen kan anses omfattas av denna licens om inget annat anges.
