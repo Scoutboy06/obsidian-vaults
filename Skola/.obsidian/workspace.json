@@ -22,20 +22,19 @@
             }
           },
           {
-            "id": "891e445ac550c910",
+            "id": "a11312dc7ab8561b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "Linjär Algebra/Kursöversikt.md",
-                "mode": "source",
-                "source": false
+                "currentVersion": "1.11.5"
               },
-              "icon": "lucide-file",
-              "title": "Kursöversikt"
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.5"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "a6ba344e9a238e4c",
@@ -208,7 +207,7 @@
       "xournalpp:Create new Xournal++ note": false
     }
   },
-  "active": "f615db402ac763da",
+  "active": "a11312dc7ab8561b",
   "lastOpenFiles": [
     "Linjär Algebra/Kursöversikt.md",
     "Linjär Algebra/test.md",
