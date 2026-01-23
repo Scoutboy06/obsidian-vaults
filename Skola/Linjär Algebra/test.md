@@ -164,7 +164,6 @@ const Mermaid = `gantt
 const Kurslinje = `
     section Läsvecka 1
     Linjära ekvationssystem, Gausseliminering: f1, 2026-01-19, 2026-01-21
-    Uppgifter: 2026-01-19, 2026-01-21
     Geometriska vektorer, räkneoperationer, bas och koordinater: f2, 2026-01-21, 2026-01-23
     Algebraiska vektorer, linjärkombination, beroende/oberoende, basbyten: f3, 2026-01-23, 2026-01-26
     
