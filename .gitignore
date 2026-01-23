@@ -1,7 +1,14 @@
 .obsidian/workspace.json
+.obsidian/app.json
+.obsidian/appearance.json
 .autosave.xopp
 *.sflisp~~~
 *.fmem
 *.lst
 *.s19
-Skola/.obsidian/workspace.json
+
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db
