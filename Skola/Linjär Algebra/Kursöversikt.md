@@ -71,8 +71,8 @@ dv.paragraph("```mermaid\n" + Mermaid + "\n```")
 
 ### 📖 Läsning
 - [x] Kapitel 1.1–1.3
-- [ ] Kapitel 2.1–2.3
-- [ ] Kapitel 2.4–2.5
+- [x] Kapitel 2.1–2.3
+- [x] Kapitel 2.4–2.5
 
 ### ✏️ Rekommenderade uppgifter
 
