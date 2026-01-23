@@ -71,7 +71,8 @@ dv.paragraph("```mermaid\n" + Mermaid + "\n```")
 
 ### 📖 Läsning
 - [x] Kapitel 1.1–1.3
-- [ ] Kapitel 2.1–2.5
+- [ ] Kapitel 2.1–2.3
+- [ ] Kapitel 2.4–2.5
 
 ### ✏️ Rekommenderade uppgifter
 
@@ -112,8 +113,10 @@ dv.paragraph("```mermaid\n" + Mermaid + "\n```")
 📅 2026-01-26 – 2026-01-30
 
 ### 📖 Läsning
-- [ ] Kapitel 3.1–3.4
+- [ ] Kapitel 3.1–3.3
+- [ ] Kapitel 3.4
 - [ ] Kapitel 4.1
+- [ ] Kapitel 4.2–4.3
 
 ### ✏️ Rekommenderade uppgifter
 
@@ -168,7 +171,8 @@ dv.paragraph("```mermaid\n" + Mermaid + "\n```")
 📅 2026-02-02 – 2026-02-09
 
 ### 📖 Läsning
-- [ ] Kapitel 5.1–5.6
+- [ ] Kapitel 5.1–5.4
+- [ ] Kapitel 5.5–5.6
 - [ ] Kapitel 6.1–6.4
 
 ### ✏️ Rekommenderade uppgifter
@@ -203,7 +207,9 @@ dv.paragraph("```mermaid\n" + Mermaid + "\n```")
 📅 2026-02-09 – 2026-02-16
 
 ### 📖 Läsning
-- [ ] Kapitel 7.1–7.8
+- [ ] Kapitel 7.1–7.4
+- [ ] Kapitel 7.4–7.5
+- [ ] Kapitel 7.6–7.8
 
 ### ✏️ Rekommenderade uppgifter
 
@@ -246,8 +252,9 @@ dv.paragraph("```mermaid\n" + Mermaid + "\n```")
 📅 2026-02-16 – 2026-02-23
 
 ### 📖 Läsning
-- [ ] Kapitel 8.1–8.6
-- [ ] Kapitel 9.1–9.8
+- [ ] Kapitel 8.1–8.3
+- [ ] Kapitel 8.4
+- [ ] Kapitel 8.5
 
 ### ✏️ Rekommenderade uppgifter
 
@@ -297,6 +304,9 @@ dv.paragraph("```mermaid\n" + Mermaid + "\n```")
 📅 2026-02-23 – 2026-03-02
 
 ### 📖 Läsning
+- [ ] Kapitel 8.6
+- [ ] Kapitel 9.1–9.3
+- [ ] Kapitel 9.3–9.5
 - [ ] Kapitel 9.6–9.8
 
 ### ✏️ Rekommenderade uppgifter
@@ -325,7 +335,8 @@ dv.paragraph("```mermaid\n" + Mermaid + "\n```")
 📅 2026-03-02 – 2026-03-09
 
 ### 📖 Läsning
-- [ ] Kapitel 9.9–10.5
+- [ ] Kapitel 9.9–10.2
+- [ ] Kapitel 10.4–10.5
 
 ### ✏️ Rekommenderade uppgifter
 
