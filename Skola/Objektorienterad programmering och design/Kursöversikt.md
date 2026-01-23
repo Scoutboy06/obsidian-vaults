@@ -65,7 +65,8 @@ gantt
 - [ ] Appendix B
 
 ### ✏️ Rekommenderade uppgifter
-- [ ] Intro quiz 1: Open-Closed Principle
+- [ ] Övningsmaterial: DrawPolygons.java, DrawPolygons.py, https://github.com/oopd-gu-chalmers/block01exercise
+- [ ] Övning 1: OOPD
 
 ---
 
@@ -77,7 +78,8 @@ gantt
 - [ ] 2.5–2.7
 
 ### ✏️ Rekommenderade uppgifter
-- [ ] Intro quiz 2: Java och typkontroll
+- [ ] Övningsmaterial: https://github.com/oopd-gu-chalmers/block02exercise
+- [ ] Övning 2: Syntax och Semantik
 
 ---
 
@@ -89,6 +91,9 @@ gantt
 - [ ] 3.5
 - [ ] Appendix A
 
+### ✏️ Rekommenderade uppgifter
+- [ ] Övning 3: UML, static vs dynamic
+
 ---
 
 ## Block 4
@@ -96,6 +101,9 @@ gantt
 
 ### 📖 Läsning
 - [ ] 2.8–2.11
+
+### ✏️ Rekommenderade uppgifter
+- [ ] Övning 4: Overriding vs Overloading
 
 ---
 
@@ -105,6 +113,9 @@ gantt
 ### 📖 Läsning
 - [ ] 3
 
+### ✏️ Rekommenderade uppgifter
+- [ ] Övning 5: Subklassning vs Composition
+
 ---
 
 ## Block 6
@@ -112,6 +123,9 @@ gantt
 
 ### 📖 Läsning
 - [ ] Java Generics (tutorials point)
+
+### ✏️ Rekommenderade uppgifter
+- [ ] Övning 6: Generic Type Declarations
 
 ---
 
@@ -122,6 +136,9 @@ gantt
 - [ ] Type Dependency in Java Part 1
 - [ ] Type Dependency in Java Part 2
 
+### ✏️ Rekommenderade uppgifter
+- [ ] Övning 7: Subtyping och Variance
+
 ---
 
 ## Block 8
@@ -130,6 +147,9 @@ gantt
 ### 📖 Läsning
 - [ ] 5.1–5.2
 - [ ] 5.8
+
+### ✏️ Rekommenderade uppgifter
+- [ ] Övning 8: High Cohesion, Low Coupling
 
 ---
 
@@ -141,6 +161,9 @@ gantt
 - [ ] 5.3–5.5
 - [ ] 5.7
 
+### ✏️ Rekommenderade uppgifter
+- [ ] Övning 9: Separation of Concern
+
 ---
 
 ## Block 10
@@ -150,6 +173,9 @@ gantt
 - [ ] 7.0
 - [ ] 8.7
 
+### ✏️ Rekommenderade uppgifter
+- [ ] Övning 10: Enkla designmönster
+
 ---
 
 ## Block 11
@@ -157,6 +183,9 @@ gantt
 
 ### 📖 Läsning
 - [ ] 8.0–8.4
+
+### ✏️ Rekommenderade uppgifter
+- [ ] Övning 11: Model-View-Controller
 
 ---
 
@@ -168,6 +197,9 @@ gantt
 - [ ] 7.2
 - [ ] 8.6
 
+### ✏️ Rekommenderade uppgifter
+- [ ] Övning 12: Mutability
+
 ---
 
 ## Block 13
@@ -175,6 +207,9 @@ gantt
 
 ### 📖 Läsning
 - [ ] 4.4–4.6
+
+### ✏️ Rekommenderade uppgifter
+- [ ] Övning 13: Representation
 
 ---
 
@@ -185,15 +220,24 @@ gantt
 - [ ] Algebraic Data Types vs Object Hierarchies
 - [ ] Lambda expressions i Java
 
+### ✏️ Rekommenderade uppgifter
+- [ ] Övning 14: Funktioner
+
 ---
 
 ## Block 15
 📅 2026-03-09 – 2026-03-10
 
+### ✏️ Rekommenderade uppgifter
+- [ ] Övning 15: Ännu fler Design Patterns
+
 ---
 
 ## Block 16
 📅 2026-03-11 – 2026-03-13
+
+### ✏️ Rekommenderade uppgifter
+- [ ] Övning 16: Retrospektiv och tentamen
 
 ---
 
