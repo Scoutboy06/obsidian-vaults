@@ -72,6 +72,10 @@ gantt
 - [ ] 17
 - [ ] 18ab
 
+### 📝 Dugga
+- [Test-Dugga](https://chalmers.instructure.com/courses/38066/assignments/114651?module_item_id=615894) (träna på duggaformat)
+- [Dugga 1](https://chalmers.instructure.com/courses/38066/assignments/114642) – öppen 19 jan till 9 feb
+
 ---
 
 ## Läsvecka 2
@@ -123,6 +127,12 @@ gantt
 - [ ] 38
 - [ ] 42
 
+### 📝 Dugga
+- [Dugga 1](https://chalmers.instructure.com/courses/38066/assignments/114642) – pågår
+
+### 🧪 Laboration
+- [Introduktion till Python (lab)](https://chalmers.instructure.com/courses/38066/assignments/114652) – 30 jan
+
 ---
 
 ## Läsvecka 3
@@ -151,6 +161,12 @@ gantt
 - [ ] 4
 - [ ] 5
 - [ ] 7
+
+### 📝 Dugga
+- [Dugga 1](https://chalmers.instructure.com/courses/38066/assignments/114642) – sista veckan (stänger 9 feb)
+
+### 🧪 Laboration
+- **Obligatorisk inlämning/Labbpass:** laborationsuppgift via Möbius/Python ges denna vecka.
 
 ---
 
@@ -191,6 +207,9 @@ gantt
 - [ ] 31
 - [ ] 32
 - [ ] 37
+
+### 🧪 Laboration
+- **Obligatorisk inlämning/Labbpass:** laborationsuppgift via Möbius/Python ges denna vecka.
 
 ---
 
@@ -240,6 +259,9 @@ gantt
 - [ ] 22
 - [ ] 28*
 
+### 🧪 Laboration
+- **Obligatorisk inlämning/Labbpass:** laborationsuppgift via Möbius/Python ges denna vecka.
+
 ---
 
 ## Läsvecka 6
@@ -264,6 +286,9 @@ gantt
 - [ ] 44*
 - [ ] 45
 - [ ] 46*
+
+### 🧪 Laboration
+- **Obligatorisk inlämning/Labbpass:** laborationsuppgift via Möbius/Python ges denna vecka.
 
 ---
 
@@ -298,6 +323,9 @@ gantt
 - [ ] 29*
 - [ ] 33*
 
+### 🧪 Laboration
+- **Obligatorisk inlämning/Labbpass:** laborationsuppgift via Möbius/Python ges denna vecka.
+
 ---
 
 ## Läsvecka 8
@@ -309,5 +337,8 @@ gantt
 ### ✏️ Rekommenderade uppgifter
 - [ ] Repetition
 - [ ] [Gamla tentor (länk)](https://chalmers.instructure.com/courses/38066/pages/gamla-tentor "Gamla tentor")
+
+### 🧪 Laboration
+- **Extra räkneövning/labbpass och repetition inför tenta**
 
 ---
