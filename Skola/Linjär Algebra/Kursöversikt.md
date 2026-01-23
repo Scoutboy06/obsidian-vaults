@@ -41,7 +41,7 @@ gantt
 📅 2026-01-19 – 2026-01-23
 
 ### 📖 Läsning
-- [ ] Kapitel 1.1–1.3
+- [x] Kapitel 1.1–1.3
 
 ### ✏️ Rekommenderade uppgifter
 
