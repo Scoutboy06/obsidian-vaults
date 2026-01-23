@@ -78,7 +78,7 @@ dv.paragraph("```mermaid\n" + Mermaid + "\n```")
 ### ✏️ Rekommenderade uppgifter
 
 **Kapitel 1:**
-- [ ] 1
+- [-] 1
 - [ ] 2
 - [ ] 3
 - [ ] 4
